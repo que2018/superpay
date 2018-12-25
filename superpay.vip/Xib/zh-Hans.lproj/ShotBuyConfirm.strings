@@ -1,0 +1,48 @@
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "1Aj-4Z-MAO"; */
+"1Aj-4Z-MAO.text" = "价格";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "8Dz-20-7fg"; */
+"8Dz-20-7fg.text" = "姓名";
+
+/* Class = "UIButton"; normalTitle = "Return"; ObjectID = "8KO-n5-PWZ"; */
+"8KO-n5-PWZ.normalTitle" = "返回";
+
+/* Class = "UILabel"; text = "Receiver"; ObjectID = "BIX-Ee-bVq"; */
+"BIX-Ee-bVq.text" = "授课者";
+
+/* Class = "UILabel"; text = "1000000"; ObjectID = "GKh-D8-xhq"; */
+"GKh-D8-xhq.text" = "1000000";
+
+/* Class = "UILabel"; text = "19097 Colima Road"; ObjectID = "JRh-rM-7SN"; */
+"JRh-rM-7SN.text" = "19097 Colima Road";
+
+/* Class = "UILabel"; text = "$254620"; ObjectID = "KgI-mL-qoE"; */
+"KgI-mL-qoE.text" = "$254620";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "NNN-aA-AHw"; */
+"NNN-aA-AHw.text" = "标题";
+
+/* Class = "UIButton"; normalTitle = "confirm"; ObjectID = "R5R-tn-hAC"; */
+"R5R-tn-hAC.normalTitle" = "确认";
+
+/* Class = "UILabel"; text = "Unicode"; ObjectID = "SUo-tj-2U4"; */
+"SUo-tj-2U4.text" = "统一编码";
+
+/* Class = "UILabel"; text = "$50"; ObjectID = "Xmk-LQ-UVy"; */
+"Xmk-LQ-UVy.text" = "$50";
+
+/* Class = "UILabel"; text = "quantity"; ObjectID = "ZRS-lF-4cy"; */
+"ZRS-lF-4cy.text" = "数量";
+
+/* Class = "UILabel"; text = "$50"; ObjectID = "ajj-EJ-gku"; */
+"ajj-EJ-gku.text" = "$50";
+
+/* Class = "UILabel"; text = "Total"; ObjectID = "fPk-8v-y7d"; */
+"fPk-8v-y7d.text" = "总计";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "sc1-8g-zyA"; */
+"sc1-8g-zyA.text" = "1";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "ssB-HT-U9u"; */
+"ssB-HT-U9u.text" = "地址";

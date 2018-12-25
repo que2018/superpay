@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="nGiftCardCell" customModule="superpay_vip" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="406" height="95"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mma-yU-aes">
+                    <rect key="frame" x="0.0" y="0.0" width="406" height="85"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gift" translatesAutoresizingMaskIntoConstraints="NO" id="Xy4-fv-dAw">
+                            <rect key="frame" x="10" y="15" width="55" height="55"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="Xy4-fv-dAw" secondAttribute="height" multiplier="1:1" id="JwB-kE-24o"/>
+                                <constraint firstAttribute="width" constant="55" id="mEo-a8-2Dn"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7io-uP-IxN">
+                            <rect key="frame" x="354.5" y="28.5" width="31.5" height="29"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.96470588235294119" green="0.21176470588235294" blue="0.46666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="Xy4-fv-dAw" firstAttribute="centerY" secondItem="mma-yU-aes" secondAttribute="centerY" id="3Bb-fc-IZ2"/>
+                        <constraint firstItem="7io-uP-IxN" firstAttribute="centerY" secondItem="mma-yU-aes" secondAttribute="centerY" id="NHN-M7-XEA"/>
+                        <constraint firstAttribute="trailing" secondItem="7io-uP-IxN" secondAttribute="trailing" constant="20" id="P5d-uJ-AMt"/>
+                        <constraint firstItem="Xy4-fv-dAw" firstAttribute="leading" secondItem="mma-yU-aes" secondAttribute="leading" constant="10" id="pS5-OA-lJh"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="mma-yU-aes" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Iva-Ig-ReN"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="mma-yU-aes" secondAttribute="trailing" id="UUL-sl-bma"/>
+                <constraint firstItem="mma-yU-aes" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="ikA-D1-JcN"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="mma-yU-aes" secondAttribute="bottom" constant="10" id="ynO-f8-4Iv"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="balanceLabel" destination="7io-uP-IxN" id="SmV-XF-2GO"/>
+                <outlet property="rootView" destination="mma-yU-aes" id="eWU-5b-ElL"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="gift" width="200" height="200"/>
+    </resources>
+</document>

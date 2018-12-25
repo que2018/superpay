@@ -1,0 +1,239 @@
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "0l4-ix-HNl"; */
+"0l4-ix-HNl.text" = "標題";
+
+/* Class = "UILabel"; text = "ID Number"; ObjectID = "2Gy-1Z-mmW"; */
+"2Gy-1Z-mmW.text" = "身份證字號";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "2bq-4D-Ol3"; */
+"2bq-4D-Ol3.normalTitle" = "登陸";
+
+/* Class = "UILabel"; text = "unit"; ObjectID = "3Ob-JE-APb"; */
+"3Ob-JE-APb.text" = "單位";
+
+/* Class = "UILabel"; text = "Please enter the charge amount"; ObjectID = "3qZ-EI-54Z"; */
+"3qZ-EI-54Z.text" = "請輸入付款金額";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "6hw-ek-RFk"; */
+"6hw-ek-RFk.normalTitle" = "提交";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "7sC-Dw-rfM"; */
+"7sC-Dw-rfM.text" = "地址(選填)";
+
+/* Class = "UILabel"; text = "VISA"; ObjectID = "9Pw-ZL-tYV"; */
+"9Pw-ZL-tYV.text" = "VISA";
+
+/* Class = "UILabel"; text = "Credit Card"; ObjectID = "9pp-S2-TwW"; */
+"9pp-S2-TwW.text" = "信用卡";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "9rg-ut-O5x"; */
+"9rg-ut-O5x.text" = "地址(選填)";
+
+/* Class = "UILabel"; text = "For security concern, no CVV code stored (the last three digits on the back)."; ObjectID = "Bx9-be-Brx"; */
+"Bx9-be-Brx.text" = "此處不記錄CVV(卡片背后末3碼)";
+
+/* Class = "UILabel"; text = "EIN Number"; ObjectID = "DSw-sa-508"; */
+"DSw-sa-508.text" = "統一編號(選填)";
+
+/* Class = "UILabel"; text = "unit"; ObjectID = "FNA-L1-qkv"; */
+"FNA-L1-qkv.text" = "單位";
+
+/* Class = "UILabel"; text = "UCARD"; ObjectID = "FrS-E8-UYP"; */
+"FrS-E8-UYP.text" = "UCARD";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "Gep-Co-7oV"; */
+"Gep-Co-7oV.text" = "密碼";
+
+/* Class = "UILabel"; text = "Expire Date"; ObjectID = "Gj3-Px-13G"; */
+"Gj3-Px-13G.text" = "到期日期";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "H6i-27-Yel"; */
+"H6i-27-Yel.text" = "密碼";
+
+/* Class = "UILabel"; text = "JBC"; ObjectID = "Hk5-FF-yEX"; */
+"Hk5-FF-yEX.text" = "JBC";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "Hs7-97-CWU"; */
+"Hs7-97-CWU.text" = "Email";
+
+/* Class = "UILabel"; text = "JBC"; ObjectID = "IA3-e4-pAl"; */
+"IA3-e4-pAl.text" = "JBC";
+
+/* Class = "UIButton"; normalTitle = "Confirm"; ObjectID = "IXw-2O-r5S"; */
+"IXw-2O-r5S.normalTitle" = "確定";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "IY8-JE-Ijx"; */
+"IY8-JE-Ijx.text" = "密碼";
+
+/* Class = "UILabel"; text = "Credit card type"; ObjectID = "Ihz-sQ-ge5"; */
+"Ihz-sQ-ge5.text" = "信用卡別";
+
+/* Class = "UILabel"; text = "Event"; ObjectID = "JHu-kc-Q6b"; */
+"JHu-kc-Q6b.text" = "優惠訊息";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "JkD-AC-6pC"; */
+"JkD-AC-6pC.text" = "價格";
+
+/* Class = "UILabel"; text = "$0"; ObjectID = "Jxq-kd-nkU"; */
+"Jxq-kd-nkU.text" = "$0";
+
+/* Class = "UIButton"; normalTitle = "Confirm"; ObjectID = "K1R-1M-IZx"; */
+"K1R-1M-IZx.normalTitle" = "確定";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "LRQ-qF-0Fe"; */
+"LRQ-qF-0Fe.normalTitle" = "註冊";
+
+/* Class = "UIButton"; normalTitle = "Confirm"; ObjectID = "Lhd-9h-b4z"; */
+"Lhd-9h-b4z.normalTitle" = "確定";
+
+/* Class = "UILabel"; text = "Pay"; ObjectID = "NDZ-dr-QuO"; */
+"NDZ-dr-QuO.text" = "付款";
+
+/* Class = "UILabel"; text = "History"; ObjectID = "NZx-OD-n8O"; */
+"NZx-OD-n8O.text" = "交易記錄";
+
+/* Class = "UILabel"; text = "For security concern, no CVV code stored (the last three digits on the back)."; ObjectID = "O4I-B9-N7c"; */
+"O4I-B9-N7c.text" = "此處不記錄CVV(卡片背后末3碼)";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "OR4-sh-prZ"; */
+"OR4-sh-prZ.text" = "密碼";
+
+/* Class = "UIButton"; normalTitle = "Forget Password"; ObjectID = "Pnq-xD-355"; */
+"Pnq-xD-355.normalTitle" = "忘記密碼";
+
+/* Class = "UILabel"; text = "Credit card type"; ObjectID = "Qdf-rc-2X3"; */
+"Qdf-rc-2X3.text" = "信用卡別";
+
+/* Class = "UILabel"; text = "$0"; ObjectID = "Qgz-Gj-imq"; */
+"Qgz-Gj-imq.text" = "$0";
+
+/* Class = "UILabel"; text = "Draw"; ObjectID = "Rk5-Tq-erd"; */
+"Rk5-Tq-erd.text" = "取款";
+
+/* Class = "UILabel"; text = "Quick Pay"; ObjectID = "Rpk-dW-ppa"; */
+"Rpk-dW-ppa.text" = "拍碼付";
+
+/* Class = "UILabel"; text = "Amount"; ObjectID = "SMN-Ix-YyK"; */
+"SMN-Ix-YyK.text" = "金額";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "V2A-3u-9ce"; */
+"V2A-3u-9ce.text" = "地址(選填)";
+
+/* Class = "UILabel"; text = "Please center the charge amount"; ObjectID = "VEu-MI-QKK"; */
+"VEu-MI-QKK.text" = "請輸入付款金額";
+
+/* Class = "UILabel"; text = "Credit Card"; ObjectID = "VUA-Je-YuG"; */
+"VUA-Je-YuG.text" = "信用卡";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "VbF-ii-FHw"; */
+"VbF-ii-FHw.text" = "Email";
+
+/* Class = "UITextField"; placeholder = "Telephone Number"; ObjectID = "Wka-dg-c0T"; */
+"Wka-dg-c0T.placeholder" = "電話號碼";
+
+/* Class = "UILabel"; text = "Master"; ObjectID = "XEV-1y-UWn"; */
+"XEV-1y-UWn.text" = "Master";
+
+/* Class = "UILabel"; text = "$"; ObjectID = "XQR-ya-4Pt"; */
+"XQR-ya-4Pt.text" = "$";
+
+/* Class = "UILabel"; text = "Phone Number"; ObjectID = "XyK-e3-9i5"; */
+"XyK-e3-9i5.text" = "電話號碼";
+
+/* Class = "UIButton"; normalTitle = "Confirm"; ObjectID = "bMC-qo-Ceq"; */
+"bMC-qo-Ceq.normalTitle" = "確定";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "bUa-qK-2RO"; */
+"bUa-qK-2RO.placeholder" = "密碼";
+
+/* Class = "UIButton"; normalTitle = "Delete"; ObjectID = "bdM-Py-5H9"; */
+"bdM-Py-5H9.normalTitle" = "刪除";
+
+/* Class = "UILabel"; text = "ID Number"; ObjectID = "cM3-ZF-Fsn"; */
+"cM3-ZF-Fsn.text" = "統一編號(選填)";
+
+/* Class = "UILabel"; text = "name"; ObjectID = "cZf-h2-EE7"; */
+"cZf-h2-EE7.text" = "姓名";
+
+/* Class = "UILabel"; text = "It will be charged 2 dollar after scanning below code"; ObjectID = "dnz-qs-epR"; */
+"dnz-qs-epR.text" = "您會被收取$2如果掃描以下號碼";
+
+/* Class = "UILabel"; text = "VISA"; ObjectID = "eMG-yX-WLy"; */
+"eMG-yX-WLy.text" = "VISA";
+
+/* Class = "UILabel"; text = "ShotBuy"; ObjectID = "fno-sL-ne6"; */
+"fno-sL-ne6.text" = "拍碼付";
+
+/* Class = "UILabel"; text = "ID"; ObjectID = "gue-q0-2ly"; */
+"gue-q0-2ly.text" = "ID";
+
+/* Class = "UITextView"; text = "Thank you for your support SuperPay Service email is: superpay.vip@gmail.com"; ObjectID = "hgT-Jy-ZUh"; */
+"hgT-Jy-ZUh.text" = "感謝您支持Superpay 服務郵件是: superpay.vip@gmail.com";
+
+/* Class = "UILabel"; text = "Unicode"; ObjectID = "iKu-Pm-5pG"; */
+"iKu-Pm-5pG.text" = "統一編碼";
+
+/* Class = "UILabel"; text = "This code is only valid within the countdown time"; ObjectID = "jfD-67-6q3"; */
+"jfD-67-6q3.text" = "此碼將於倒數結束后失效";
+
+/* Class = "UILabel"; text = "ID: 0000000"; ObjectID = "kLn-fb-reE"; */
+"kLn-fb-reE.text" = "ID: 0000000";
+
+/* Class = "UIButton"; normalTitle = "Receiver ID(If needed)"; ObjectID = "kQF-bz-bLF"; */
+"kQF-bz-bLF.normalTitle" = "指定收款者(非必要)";
+
+/* Class = "UILabel"; text = "Finance"; ObjectID = "l8I-If-QAy"; */
+"l8I-If-QAy.text" = "賬務管理";
+
+/* Class = "UILabel"; text = "Phone Number"; ObjectID = "mN9-DJ-GZS"; */
+"mN9-DJ-GZS.text" = "電話號碼";
+
+/* Class = "UITextView"; text = "If you have any question for suggestion, please leave your precious comments(300 words)"; ObjectID = "na3-1N-eb6"; */
+"na3-1N-eb6.text" = "如果您有任何問題或建議, 請留下寶貴意見(300字內)";
+
+/* Class = "UILabel"; text = "UCARD"; ObjectID = "njG-pJ-SNG"; */
+"njG-pJ-SNG.text" = "UCARD";
+
+/* Class = "UILabel"; text = "Your identification code(ID). Once the code been scanned, you will be charged."; ObjectID = "nlG-23-xyh"; */
+"nlG-23-xyh.text" = "個人身份碼(ID). 若此碼被掃描, 將會扣除金額";
+"OYp-Aa-zLO.text" = "個人身份碼(ID). 若此碼被掃描, 將會扣除金額";
+"h5V-UN-NSW.text" = "個人身份碼(ID). 若此碼被掃描, 將會扣除金額";
+
+/* Class = "UILabel"; text = "Card Number"; ObjectID = "oCG-wp-iaZ"; */
+"oCG-wp-iaZ.text" = "卡號";
+
+/* Class = "UILabel"; text = "EIN Number"; ObjectID = "pCq-79-Ehq"; */
+"pCq-79-Ehq.text" = "統一編號(選填)";
+
+/* Class = "UILabel"; text = "Withdrawal Request"; ObjectID = "q0b-Bk-GyJ"; */
+"q0b-Bk-GyJ.text" = "收款請求";
+
+/* Class = "UIButton"; normalTitle = "Return"; ObjectID = "tKl-5H-4fh"; */
+"tKl-5H-4fh.normalTitle" = "返回";
+
+/* Class = "UILabel"; text = "name"; ObjectID = "uUJ-PG-40W"; */
+"uUJ-PG-40W.text" = "姓名";
+
+/* Class = "UILabel"; text = "Total:"; ObjectID = "uxs-lP-RAj"; */
+"uxs-lP-RAj.text" = "總計:";
+
+/* Class = "UILabel"; text = "Receiver"; ObjectID = "v5R-X0-AwQ"; */
+"v5R-X0-AwQ.text" = "收款者";
+
+/* Class = "UITextField"; text = "1"; ObjectID = "vCf-8o-qel"; */
+"vCf-8o-qel.text" = "1";
+
+/* Class = "UILabel"; text = "Expire Date"; ObjectID = "vol-cW-SYX"; */
+"vol-cW-SYX.text" = "到期時間";
+
+/* Class = "UILabel"; text = "Master"; ObjectID = "w1L-bG-hHx"; */
+"w1L-bG-hHx.text" = "Master";
+
+/* Class = "UIButton"; normalTitle = "Confirm"; ObjectID = "y6h-Vd-GXu"; */
+"y6h-Vd-GXu.normalTitle" = "確定";
+
+/* Class = "UILabel"; text = "$"; ObjectID = "yaj-Dm-VMB"; */
+"yaj-Dm-VMB.text" = "$";
+
+/* Class = "UILabel"; text = "Card Number"; ObjectID = "z3S-tC-JZh"; */
+"z3S-tC-JZh.text" = "卡號";

@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "The QRCODE is invalid"; ObjectID = "1sa-fV-ANV"; */
+"1sa-fV-ANV.text" = "The QRCODE is invalid";
+
+/* Class = "UIButton"; normalTitle = "Return"; ObjectID = "Ai0-gK-qVi"; */
+"Ai0-gK-qVi.normalTitle" = "Return";
+
+/* Class = "UILabel"; text = "Transaction Fail"; ObjectID = "Pz4-og-95Q"; */
+"Pz4-og-95Q.text" = "Transaction Fail";
+
+/* Class = "UILabel"; text = "$0 unit"; ObjectID = "yzf-Ip-2qj"; */
+"yzf-Ip-2qj.text" = "0 unit";

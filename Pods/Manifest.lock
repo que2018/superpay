@@ -1,0 +1,70 @@
+PODS:
+  - Alamofire (4.7.3)
+  - CardIO (5.4.1)
+  - CryptoSwift (0.11.0)
+  - DLRadioButton (1.4.12)
+  - FormTextField (2.0.1)
+  - PayPal-iOS-SDK (2.18.1):
+    - PayPal-iOS-SDK/CardIO (= 2.18.1)
+    - PayPal-iOS-SDK/Core (= 2.18.1)
+  - PayPal-iOS-SDK/CardIO (2.18.1):
+    - CardIO (~> 5.4.1)
+  - PayPal-iOS-SDK/Core (2.18.1)
+  - QRCode (2.0)
+  - QRCodeReader.swift (8.2.0)
+  - SQLite.swift (0.11.5):
+    - SQLite.swift/standard (= 0.11.5)
+  - SQLite.swift/standard (0.11.5)
+  - SRCountdownTimer (1.1)
+  - SwiftyJSON (4.1.0)
+  - Toaster (2.1.1)
+  - XLPagerTabStrip (8.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - CryptoSwift
+  - DLRadioButton (~> 1.4)
+  - FormTextField
+  - PayPal-iOS-SDK
+  - QRCode
+  - QRCodeReader.swift (~> 8.2.0)
+  - SQLite.swift (~> 0.11.5)
+  - SRCountdownTimer
+  - SwiftyJSON (~> 4.0)
+  - Toaster
+  - XLPagerTabStrip (~> 8.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CardIO
+    - CryptoSwift
+    - DLRadioButton
+    - FormTextField
+    - PayPal-iOS-SDK
+    - QRCode
+    - QRCodeReader.swift
+    - SQLite.swift
+    - SRCountdownTimer
+    - SwiftyJSON
+    - Toaster
+    - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  CardIO: 56983b39b62f495fc6dae9ad7cf875143df06443
+  CryptoSwift: ad5208dd2aae0a764ea4ce2c2d34bd067cae67f0
+  DLRadioButton: d7c4e225ed0e8013cef7be61455230c7557ad7c1
+  FormTextField: 061cd39ee77d5fb3d87b2e5a00728e2c874b3904
+  PayPal-iOS-SDK: 10654cd111e911a9807bddb96fae81aacb8e9915
+  QRCode: f98a1886c8f37523704a7512a4c0cd45b34c18a4
+  QRCodeReader.swift: 003eb32f18a5a675b936ec82ba0ff368cddbff45
+  SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
+  SRCountdownTimer: 9c92e444b5403c92f01dd6610299b8c634bc8562
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+  Toaster: a6c9532de1ded8105e77376f7dffeb2e12b46dbb
+  XLPagerTabStrip: c908b17cbf42fcd2598ee1adfc49bae25444d88a
+
+PODFILE CHECKSUM: a06454e6846172dd58fe193f87ccce4fe777b316
+
+COCOAPODS: 1.5.2

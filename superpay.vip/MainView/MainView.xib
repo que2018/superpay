@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="JM5-gv-DY5">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_ad_1" translatesAutoresizingMaskIntoConstraints="NO" id="fFL-7T-bmH">
+                    <rect key="frame" x="0.0" y="20" width="375" height="137"/>
+                    <color key="backgroundColor" red="0.8980392157" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="fFL-7T-bmH" secondAttribute="height" multiplier="720:263" id="3Dy-lu-0ET"/>
+                    </constraints>
+                </imageView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="KHR-po-qmf">
+                    <rect key="frame" x="0.0" y="157" width="375" height="410"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5OG-J6-cDS">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="135"/>
+                            <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="0.86304045380000005" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="30" maxX="0.0" maxY="30"/>
+                            <state key="normal" title="ShotBuy" image="main_page_btn1">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ud-V4-ORq">
+                            <rect key="frame" x="0.0" y="137" width="375" height="136"/>
+                            <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="0.86304045380000005" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="30" maxX="0.0" maxY="30"/>
+                            <state key="normal" title="Pay" image="main_page_btn2">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Yg-aK-p5i">
+                            <rect key="frame" x="0.0" y="275" width="375" height="135"/>
+                            <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="0.86304045380000005" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="30" maxX="0.0" maxY="30"/>
+                            <state key="normal" title="Draw" image="main_page_btn3">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="3Yg-aK-p5i" firstAttribute="height" secondItem="5OG-J6-cDS" secondAttribute="height" id="d0V-Qb-HFt"/>
+                        <constraint firstItem="7Ud-V4-ORq" firstAttribute="height" secondItem="5OG-J6-cDS" secondAttribute="height" id="pdE-d3-DjV"/>
+                    </constraints>
+                </stackView>
+                <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="99d-3M-P2A">
+                    <rect key="frame" x="0.0" y="567" width="375" height="100"/>
+                    <color key="backgroundColor" red="0.8980392157" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="Xm5-aq-4k0"/>
+                    </constraints>
+                    <items>
+                        <tabBarItem title="Quick Pay" image="tab_1" selectedImage="tab_1_cover" id="vZ0-pe-E4x"/>
+                        <tabBarItem title="Finance" image="tab_2" selectedImage="tab_2_cover" id="Twj-f0-ALy"/>
+                        <tabBarItem title="Event" image="tab_3" selectedImage="tab_3_cover" id="cx0-bt-FMq"/>
+                        <tabBarItem title="History" image="tab_4" id="IOC-TJ-FAw"/>
+                    </items>
+                    <color key="tintColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="selectedImageTintColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </tabBar>
+                <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IaT-j5-7DX">
+                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <gestureRecognizers/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y9b-4M-J02" userLabel="drawer">
+                    <rect key="frame" x="375" y="20" width="180" height="647"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="9QN-yc-ShO">
+                            <rect key="frame" x="0.0" y="0.0" width="180" height="312"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0fS-r1-zCq">
+                                    <rect key="frame" x="0.0" y="0.0" width="180" height="50"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="c0j-VZ-fRm"/>
+                                    </constraints>
+                                    <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <inset key="imageEdgeInsets" minX="5" minY="10" maxX="5" maxY="10"/>
+                                    <state key="normal" title="Account" image="side_1">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cDR-UQ-mB8">
+                                    <rect key="frame" x="0.0" y="50" width="180" height="2"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="2" id="jkG-Kz-79z"/>
+                                    </constraints>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LQ0-p7-VmG">
+                                    <rect key="frame" x="0.0" y="52" width="180" height="50"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="wgO-I8-4Tl"/>
+                                    </constraints>
+                                    <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <inset key="imageEdgeInsets" minX="5" minY="10" maxX="5" maxY="10"/>
+                                    <state key="normal" title="Website" image="side_2">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="li5-L9-94H">
+                                    <rect key="frame" x="0.0" y="102" width="180" height="2"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="2" id="may-YC-8MK"/>
+                                    </constraints>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W2e-F5-PW9">
+                                    <rect key="frame" x="0.0" y="104" width="180" height="50"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="YgV-kj-g2A"/>
+                                    </constraints>
+                                    <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <inset key="imageEdgeInsets" minX="5" minY="10" maxX="5" maxY="10"/>
+                                    <state key="normal" title="Facebook" image="side_3">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cGl-KF-xBe">
+                                    <rect key="frame" x="0.0" y="154" width="180" height="2"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="2" id="qxg-Ct-LLJ"/>
+                                    </constraints>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHL-yt-ESP">
+                                    <rect key="frame" x="0.0" y="156" width="180" height="50"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="b5s-KT-PSU"/>
+                                    </constraints>
+                                    <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <inset key="imageEdgeInsets" minX="5" minY="10" maxX="5" maxY="10"/>
+                                    <state key="normal" title="Help Center" image="side_4">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DBg-P9-raS">
+                                    <rect key="frame" x="0.0" y="206" width="180" height="2"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="2" id="Of2-jH-hdl"/>
+                                    </constraints>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="45e-ws-ubb">
+                                    <rect key="frame" x="0.0" y="208" width="180" height="50"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="cx4-Hr-kbb"/>
+                                    </constraints>
+                                    <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <inset key="imageEdgeInsets" minX="5" minY="10" maxX="5" maxY="10"/>
+                                    <state key="normal" title="Feedback" image="side_5">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Agr-nd-rku">
+                                    <rect key="frame" x="0.0" y="258" width="180" height="2"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="2" id="c2t-qA-a9b"/>
+                                    </constraints>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tLe-JM-crl">
+                                    <rect key="frame" x="0.0" y="260" width="180" height="50"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="H96-uu-cRr"/>
+                                    </constraints>
+                                    <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <inset key="imageEdgeInsets" minX="5" minY="10" maxX="5" maxY="10"/>
+                                    <state key="normal" title="Logout" image="side_6">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NjS-6b-HQb">
+                                    <rect key="frame" x="0.0" y="310" width="180" height="2"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="2" id="PE1-NL-b9o"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="cDR-UQ-mB8" firstAttribute="top" secondItem="0fS-r1-zCq" secondAttribute="bottom" id="j18-IP-xUk"/>
+                                <constraint firstItem="LQ0-p7-VmG" firstAttribute="top" secondItem="cDR-UQ-mB8" secondAttribute="bottom" id="lC3-UW-lyZ"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="9QN-yc-ShO" firstAttribute="top" secondItem="Y9b-4M-J02" secondAttribute="top" id="E0r-Ub-Plw"/>
+                        <constraint firstAttribute="width" constant="180" id="H4N-3D-TLD"/>
+                        <constraint firstAttribute="trailing" secondItem="9QN-yc-ShO" secondAttribute="trailing" id="v07-hW-2xA"/>
+                        <constraint firstItem="9QN-yc-ShO" firstAttribute="leading" secondItem="Y9b-4M-J02" secondAttribute="leading" id="yZ9-70-w19"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="IaT-j5-7DX" firstAttribute="top" secondItem="Flw-nt-UEE" secondAttribute="top" id="6Es-hP-cpt"/>
+                <constraint firstItem="Y9b-4M-J02" firstAttribute="leading" secondItem="IaT-j5-7DX" secondAttribute="trailing" id="Dga-w9-gFj"/>
+                <constraint firstItem="KHR-po-qmf" firstAttribute="leading" secondItem="Flw-nt-UEE" secondAttribute="leading" id="Ggd-9K-C5t"/>
+                <constraint firstItem="KHR-po-qmf" firstAttribute="top" secondItem="fFL-7T-bmH" secondAttribute="bottom" id="JuF-t4-18f"/>
+                <constraint firstItem="99d-3M-P2A" firstAttribute="trailing" secondItem="Flw-nt-UEE" secondAttribute="trailing" id="LhY-SW-HDk"/>
+                <constraint firstItem="IaT-j5-7DX" firstAttribute="leading" secondItem="Flw-nt-UEE" secondAttribute="leading" id="RUl-N2-yJJ"/>
+                <constraint firstItem="fFL-7T-bmH" firstAttribute="leading" secondItem="Flw-nt-UEE" secondAttribute="leading" id="WaW-P9-xLY"/>
+                <constraint firstItem="Flw-nt-UEE" firstAttribute="bottom" secondItem="99d-3M-P2A" secondAttribute="bottom" id="dLp-Vv-8Yn"/>
+                <constraint firstItem="fFL-7T-bmH" firstAttribute="top" secondItem="Flw-nt-UEE" secondAttribute="top" id="dYk-W1-qSP"/>
+                <constraint firstItem="99d-3M-P2A" firstAttribute="leading" secondItem="Flw-nt-UEE" secondAttribute="leading" id="eH9-AJ-BA1"/>
+                <constraint firstItem="Flw-nt-UEE" firstAttribute="trailing" secondItem="KHR-po-qmf" secondAttribute="trailing" id="gdD-mm-Me4"/>
+                <constraint firstItem="99d-3M-P2A" firstAttribute="top" secondItem="KHR-po-qmf" secondAttribute="bottom" id="iYm-nf-Yki"/>
+                <constraint firstItem="IaT-j5-7DX" firstAttribute="bottom" secondItem="Flw-nt-UEE" secondAttribute="bottom" id="kFG-VY-bty"/>
+                <constraint firstItem="Y9b-4M-J02" firstAttribute="top" secondItem="Flw-nt-UEE" secondAttribute="top" id="q55-Rr-XbB"/>
+                <constraint firstItem="Y9b-4M-J02" firstAttribute="bottom" secondItem="Flw-nt-UEE" secondAttribute="bottom" id="vfg-oZ-rlg"/>
+                <constraint firstItem="Y9b-4M-J02" firstAttribute="trailing" secondItem="Flw-nt-UEE" secondAttribute="trailing" constant="180" id="wtN-A0-LTw"/>
+                <constraint firstItem="fFL-7T-bmH" firstAttribute="trailing" secondItem="Flw-nt-UEE" secondAttribute="trailing" id="zON-51-iVj"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Flw-nt-UEE"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_ad_1" width="720" height="236"/>
+        <image name="main_page_btn1" width="118" height="131"/>
+        <image name="main_page_btn2" width="150" height="176"/>
+        <image name="main_page_btn3" width="150" height="176"/>
+        <image name="side_1" width="55" height="52"/>
+        <image name="side_2" width="55" height="52"/>
+        <image name="side_3" width="55" height="52"/>
+        <image name="side_4" width="55" height="52"/>
+        <image name="side_5" width="55" height="52"/>
+        <image name="side_6" width="55" height="52"/>
+        <image name="tab_1" width="50" height="50"/>
+        <image name="tab_1_cover" width="50" height="50"/>
+        <image name="tab_2" width="50" height="50"/>
+        <image name="tab_2_cover" width="50" height="50"/>
+        <image name="tab_3" width="50" height="50"/>
+        <image name="tab_3_cover" width="50" height="50"/>
+        <image name="tab_4" width="50" height="50"/>
+    </resources>
+</document>

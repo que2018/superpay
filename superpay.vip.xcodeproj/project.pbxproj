@@ -1,0 +1,1445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06ED97D078C14CD39C1416B4 /* Pods_superpay_vip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0537633AB0322ADB142548 /* Pods_superpay_vip.framework */; };
+		6A86D3BC5D1D1766CBB07892 /* Pods_superpay_vipUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3312E08B8CC67E2F8AB9CADD /* Pods_superpay_vipUITests.framework */; };
+		CBEFBECC212F811A006E5494 /* ShotBuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEFBECB212F811A006E5494 /* ShotBuyViewController.swift */; };
+		CBEFBECE212F812B006E5494 /* PayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEFBECD212F812B006E5494 /* PayViewController.swift */; };
+		CBEFBED0212F813B006E5494 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEFBECF212F813B006E5494 /* DrawViewController.swift */; };
+		EBD77D719C982A7EB9345511 /* Pods_superpay_vipTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611F82E9BBB61071056666EA /* Pods_superpay_vipTests.framework */; };
+		F41EB24021223EF3003E8786 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41EB23F21223EF3003E8786 /* LoginViewController.swift */; };
+		F44923AE211D0A5500C79F2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44923AD211D0A5500C79F2B /* AppDelegate.swift */; };
+		F44923B3211D0A5500C79F2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44923B1211D0A5500C79F2B /* Main.storyboard */; };
+		F44923B5211D0A5700C79F2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44923B4211D0A5700C79F2B /* Assets.xcassets */; };
+		F44923B8211D0A5700C79F2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44923B6211D0A5700C79F2B /* LaunchScreen.storyboard */; };
+		F44923C3211D0A5700C79F2B /* superpay_vipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44923C2211D0A5700C79F2B /* superpay_vipTests.swift */; };
+		F44923CE211D0A5700C79F2B /* superpay_vipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44923CD211D0A5700C79F2B /* superpay_vipUITests.swift */; };
+		F6015889214765A300E56D55 /* LoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6015888214765A300E56D55 /* LoadingButton.swift */; };
+		F601588B214765D300E56D55 /* BottomBorderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F601588A214765D300E56D55 /* BottomBorderTextField.swift */; };
+		F60158902147678100E56D55 /* ADDR.swift in Sources */ = {isa = PBXBuildFile; fileRef = F601588F2147678100E56D55 /* ADDR.swift */; };
+		F60B4721219524DD00F1C0CA /* PayPalWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60B4720219524DD00F1C0CA /* PayPalWebViewController.swift */; };
+		F617B3312193D0A000F21525 /* PayPalInput.xib in Resources */ = {isa = PBXBuildFile; fileRef = F617B3302193D0A000F21525 /* PayPalInput.xib */; };
+		F617B3332193D10800F21525 /* PayPalInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F617B3322193D10800F21525 /* PayPalInput.swift */; };
+		F634F581215AAAF5004C3D66 /* DrawAmountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634F580215AAAF5004C3D66 /* DrawAmountViewController.swift */; };
+		F634F583215AD3A1004C3D66 /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634F582215AD3A1004C3D66 /* BasicViewController.swift */; };
+		F634F586215AD911004C3D66 /* AuthGuardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634F585215AD911004C3D66 /* AuthGuardViewController.swift */; };
+		F639E0132163D5FF00F6D91E /* ShadowUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F639E0122163D5FF00F6D91E /* ShadowUIView.swift */; };
+		F63BDF2D2152E50700BC14F3 /* BannerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F63BDF2C2152E50700BC14F3 /* BannerCell.xib */; };
+		F63BDF2F2152E57E00BC14F3 /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63BDF2E2152E57E00BC14F3 /* BannerCell.swift */; };
+		F63BDF332152EF5D00BC14F3 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63BDF322152EF5D00BC14F3 /* Banner.swift */; };
+		F63BDF352152F1AA00BC14F3 /* BannerHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F63BDF342152F1AA00BC14F3 /* BannerHeaderCell.xib */; };
+		F63BDF372152F21400BC14F3 /* BannerHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63BDF362152F21400BC14F3 /* BannerHeaderCell.swift */; };
+		F6471C702155A9BC00E60C32 /* DrawResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6471C6F2155A9BC00E60C32 /* DrawResultViewController.swift */; };
+		F6471C742155ACCF00E60C32 /* SuccessAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6471C732155ACCF00E60C32 /* SuccessAlert.swift */; };
+		F6471C782155BFF300E60C32 /* FailAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6471C772155BFF300E60C32 /* FailAlert.swift */; };
+		F64B4F3D21642AF700179622 /* ShotBuySuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64B4F3C21642AF700179622 /* ShotBuySuccess.swift */; };
+		F64ECAA8215C19F6009D2D40 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64ECAA7215C19F6009D2D40 /* RegisterViewController.swift */; };
+		F65531C92157162900096081 /* CardTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65531C82157162900096081 /* CardTable.swift */; };
+		F65BDCB921476AF30086C613 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65BDCB821476AF30086C613 /* Auth.swift */; };
+		F65BDCBB2147706F0086C613 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65BDCBA2147706F0086C613 /* HomeViewController.swift */; };
+		F65BDCC721477AEA0086C613 /* QuickPayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65BDCC621477AEA0086C613 /* QuickPayViewController.swift */; };
+		F65BDCC921477AFB0086C613 /* FinanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65BDCC821477AFB0086C613 /* FinanceViewController.swift */; };
+		F65BDCCB21477B070086C613 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65BDCCA21477B070086C613 /* EventViewController.swift */; };
+		F65BDCCD21477B140086C613 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65BDCCC21477B140086C613 /* HistoryViewController.swift */; };
+		F6698380215E9A930048DDB3 /* ShotBuyResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F669837F215E9A930048DDB3 /* ShotBuyResultViewController.swift */; };
+		F6698382215EF4970048DDB3 /* nCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6698381215EF4970048DDB3 /* nCardCell.xib */; };
+		F6698384215EF49F0048DDB3 /* nDepositCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6698383215EF49F0048DDB3 /* nDepositCardCell.xib */; };
+		F6698386215EF4A40048DDB3 /* nGiftCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6698385215EF4A30048DDB3 /* nGiftCardCell.xib */; };
+		F6698388215EF53E0048DDB3 /* nCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6698387215EF53E0048DDB3 /* nCardCell.swift */; };
+		F669838A215EF5780048DDB3 /* nDepositCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6698389215EF5780048DDB3 /* nDepositCardCell.swift */; };
+		F669838C215EF59F0048DDB3 /* nGiftCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F669838B215EF59F0048DDB3 /* nGiftCardCell.swift */; };
+		F6698390215F07480048DDB3 /* ShotBuyConfirm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F669838F215F07480048DDB3 /* ShotBuyConfirm.swift */; };
+		F66EDDD4214ECAEC00EE2EF3 /* CardEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66EDDD3214ECAEC00EE2EF3 /* CardEditViewController.swift */; };
+		F6713125217652BF004435FD /* SideMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6713127217652BF004435FD /* SideMenu.xib */; };
+		F671312E217653A1004435FD /* CardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6713130217653A1004435FD /* CardCell.xib */; };
+		F6713137217653C2004435FD /* DepositCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6713139217653C2004435FD /* DepositCardCell.xib */; };
+		F6713140217653D1004435FD /* FailAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6713142217653D1004435FD /* FailAlert.xib */; };
+		F6713149217653F2004435FD /* GiftCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F671314B217653F2004435FD /* GiftCardCell.xib */; };
+		F67131522176540F004435FD /* ShotBuyConfirm.xib in Resources */ = {isa = PBXBuildFile; fileRef = F67131542176540F004435FD /* ShotBuyConfirm.xib */; };
+		F671315B2176542A004435FD /* SPCCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F671315D2176542A004435FD /* SPCCardCell.xib */; };
+		F67131642176543B004435FD /* ShotBuySuccess.xib in Resources */ = {isa = PBXBuildFile; fileRef = F67131662176543B004435FD /* ShotBuySuccess.xib */; };
+		F671316D2176544A004435FD /* PasswordInput.xib in Resources */ = {isa = PBXBuildFile; fileRef = F671316F2176544A004435FD /* PasswordInput.xib */; };
+		F671317621765466004435FD /* BRCCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F671317821765466004435FD /* BRCCardCell.xib */; };
+		F6713182217657E9004435FD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6713184217657E9004435FD /* Localizable.strings */; };
+		F675C5A921908E9C001BE25A /* ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = F675C5A821908E9C001BE25A /* ResetPassword.swift */; };
+		F675C5AA21909ECD001BE25A /* ResetPassword.xib in Resources */ = {isa = PBXBuildFile; fileRef = F675C5AC21909ECD001BE25A /* ResetPassword.xib */; };
+		F67813F421B6FE4700A54CC6 /* SuccessAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = F67813F621B6FE4700A54CC6 /* SuccessAlert.xib */; };
+		F67813FF21B744A400A54CC6 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67813FE21B744A300A54CC6 /* Double.swift */; };
+		F67D5D2F216FC1E200BB9FE2 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67D5D2E216FC1E200BB9FE2 /* Device.swift */; };
+		F69B70D3217178DE009015D9 /* nBRCCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69B70D2217178DE009015D9 /* nBRCCardCell.xib */; };
+		F69B70D521717975009015D9 /* nBRCCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69B70D421717975009015D9 /* nBRCCardCell.swift */; };
+		F69B70D721717D73009015D9 /* SPCCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69B70D621717D73009015D9 /* SPCCardCell.swift */; };
+		F69B70D921717D88009015D9 /* nSPCCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69B70D821717D88009015D9 /* nSPCCardCell.swift */; };
+		F69B70DD21717E9A009015D9 /* nSPCCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69B70DB21717E9A009015D9 /* nSPCCardCell.xib */; };
+		F69B70E12171807D009015D9 /* SPCCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69B70E02171807D009015D9 /* SPCCard.swift */; };
+		F69D3181214835C800D4E091 /* BorderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69D3180214835C800D4E091 /* BorderUIView.swift */; };
+		F69D31842148373400D4E091 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69D31832148373400D4E091 /* Card.swift */; };
+		F69D318D21483DB800D4E091 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69D318C21483DB800D4E091 /* HistoryTableViewCell.swift */; };
+		F6AED607215DDBB80025C84C /* BRCCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AED606215DDBB80025C84C /* BRCCardCell.swift */; };
+		F6AED609215DDC4F0025C84C /* BRCCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AED608215DDC4F0025C84C /* BRCCard.swift */; };
+		F6BE1B562152B722009B0AC3 /* DepositCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE1B552152B722009B0AC3 /* DepositCardCell.swift */; };
+		F6BE1B582152B786009B0AC3 /* GiftCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE1B572152B786009B0AC3 /* GiftCardCell.swift */; };
+		F6BE1B5A2152B865009B0AC3 /* DepositCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE1B592152B865009B0AC3 /* DepositCard.swift */; };
+		F6BE1B5C2152B8B0009B0AC3 /* GiftCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE1B5B2152B8B0009B0AC3 /* GiftCard.swift */; };
+		F6BE1B5E2152C5E9009B0AC3 /* TouchUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BE1B5D2152C5E9009B0AC3 /* TouchUIView.swift */; };
+		F6CEE115215477E700B71309 /* CONSTANT.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CEE114215477E700B71309 /* CONSTANT.swift */; };
+		F6D3CADA2167D85B00127C1E /* PasswordInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D3CAD92167D85B00127C1E /* PasswordInput.swift */; };
+		F6D3CADE2167DE2600127C1E /* PopoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D3CADD2167DE2600127C1E /* PopoutViewController.swift */; };
+		F6D3CAE02167E53200127C1E /* PayResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D3CADF2167E53200127C1E /* PayResultViewController.swift */; };
+		F6DD442321499BC700EBEFE9 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DD442221499BC700EBEFE9 /* AccountViewController.swift */; };
+		F6DD442521499BE600EBEFE9 /* WebSiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DD442421499BE600EBEFE9 /* WebSiteViewController.swift */; };
+		F6DD442721499C0300EBEFE9 /* FaceBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DD442621499C0300EBEFE9 /* FaceBookViewController.swift */; };
+		F6DD442921499C2900EBEFE9 /* HelpCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DD442821499C2900EBEFE9 /* HelpCenterViewController.swift */; };
+		F6DD442B21499C4300EBEFE9 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DD442A21499C4300EBEFE9 /* FeedbackViewController.swift */; };
+		F6DD44332149B58400EBEFE9 /* CardAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DD44322149B58300EBEFE9 /* CardAddViewController.swift */; };
+		F6E54C152148950D00E95308 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E54C142148950D00E95308 /* SideMenu.swift */; };
+		F6F33DEA21BE3E8300CE566D /* Func.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F33DE921BE3E8300CE566D /* Func.swift */; };
+		F6F4BE3D21A48FDD0087AC3B /* QuickPaySPCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F4BE3C21A48FDD0087AC3B /* QuickPaySPCViewController.swift */; };
+		F6F4BE3F21A4A5540087AC3B /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F4BE3E21A4A5540087AC3B /* PasswordViewController.swift */; };
+		F6FB8F9E21A3593E003A2057 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FB8F9D21A3593E003A2057 /* PageViewController.swift */; };
+		F6FB8FA021A36435003A2057 /* QuickPayBRCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FB8F9F21A36435003A2057 /* QuickPayBRCViewController.swift */; };
+		F6FD04BA214D7D4300981E35 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FD04B9214D7D4200981E35 /* Transition.swift */; };
+		F6FD04C1214D837600981E35 /* AllTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FD04C0214D837600981E35 /* AllTransactionViewController.swift */; };
+		F6FD04C3214D83AD00981E35 /* DepositViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FD04C2214D83AD00981E35 /* DepositViewController.swift */; };
+		F6FD04C5214D83BF00981E35 /* WithdrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FD04C4214D83BF00981E35 /* WithdrawViewController.swift */; };
+		F6FD04C7214D85A400981E35 /* AllTransactionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6FD04C6214D85A400981E35 /* AllTransactionCell.xib */; };
+		F6FD04C9214D85C700981E35 /* DepositCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6FD04C8214D85C700981E35 /* DepositCell.xib */; };
+		F6FD04CB214D85E600981E35 /* WidthdrawCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6FD04CA214D85E600981E35 /* WidthdrawCell.xib */; };
+		F6FD04CD214D88DE00981E35 /* AllTransationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FD04CC214D88DE00981E35 /* AllTransationCell.swift */; };
+		F6FD04CF214D88F200981E35 /* DepositCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FD04CE214D88F200981E35 /* DepositCell.swift */; };
+		F6FD04D5214DF73400981E35 /* WidthdrawCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FD04D4214DF73400981E35 /* WidthdrawCell.swift */; };
+		F6FD04D9214E05B800981E35 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FD04D8214E05B800981E35 /* CardCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F44923BF211D0A5700C79F2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F44923A2211D0A5500C79F2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F44923A9211D0A5500C79F2B;
+			remoteInfo = superpay.vip;
+		};
+		F44923CA211D0A5700C79F2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F44923A2211D0A5500C79F2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F44923A9211D0A5500C79F2B;
+			remoteInfo = superpay.vip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3312E08B8CC67E2F8AB9CADD /* Pods_superpay_vipUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_superpay_vipUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB80C15AF09592B68FE19C7 /* Pods-superpay.vip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-superpay.vip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-superpay.vip/Pods-superpay.vip.debug.xcconfig"; sourceTree = "<group>"; };
+		611F82E9BBB61071056666EA /* Pods_superpay_vipTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_superpay_vipTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		612106C4DCA159B059B032A7 /* Pods-superpay.vipTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-superpay.vipTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-superpay.vipTests/Pods-superpay.vipTests.debug.xcconfig"; sourceTree = "<group>"; };
+		77332BDB866598E704DD43AB /* Pods-superpay.vipUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-superpay.vipUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-superpay.vipUITests/Pods-superpay.vipUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E0537633AB0322ADB142548 /* Pods_superpay_vip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_superpay_vip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBEFBECB212F811A006E5494 /* ShotBuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotBuyViewController.swift; sourceTree = "<group>"; };
+		CBEFBECD212F812B006E5494 /* PayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayViewController.swift; sourceTree = "<group>"; };
+		CBEFBECF212F813B006E5494 /* DrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
+		D2BFA416345032251CC49028 /* Pods-superpay.vipTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-superpay.vipTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-superpay.vipTests/Pods-superpay.vipTests.release.xcconfig"; sourceTree = "<group>"; };
+		D4BABF367E81F2CFE1E25179 /* Pods-superpay.vipUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-superpay.vipUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-superpay.vipUITests/Pods-superpay.vipUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E75B0594462D9AEADE96AE51 /* Pods-superpay.vip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-superpay.vip.release.xcconfig"; path = "Pods/Target Support Files/Pods-superpay.vip/Pods-superpay.vip.release.xcconfig"; sourceTree = "<group>"; };
+		F41EB23F21223EF3003E8786 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F44923AA211D0A5500C79F2B /* superpay.vip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = superpay.vip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44923AD211D0A5500C79F2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F44923B2211D0A5500C79F2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F44923B4211D0A5700C79F2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F44923B7211D0A5700C79F2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F44923B9211D0A5700C79F2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F44923BE211D0A5700C79F2B /* superpay.vipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = superpay.vipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44923C2211D0A5700C79F2B /* superpay_vipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = superpay_vipTests.swift; sourceTree = "<group>"; };
+		F44923C4211D0A5700C79F2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F44923C9211D0A5700C79F2B /* superpay.vipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = superpay.vipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44923CD211D0A5700C79F2B /* superpay_vipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = superpay_vipUITests.swift; sourceTree = "<group>"; };
+		F44923CF211D0A5700C79F2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6015888214765A300E56D55 /* LoadingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingButton.swift; sourceTree = "<group>"; };
+		F601588A214765D300E56D55 /* BottomBorderTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBorderTextField.swift; sourceTree = "<group>"; };
+		F601588F2147678100E56D55 /* ADDR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADDR.swift; sourceTree = "<group>"; };
+		F60B4720219524DD00F1C0CA /* PayPalWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayPalWebViewController.swift; sourceTree = "<group>"; };
+		F617B3302193D0A000F21525 /* PayPalInput.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PayPalInput.xib; sourceTree = "<group>"; };
+		F617B3322193D10800F21525 /* PayPalInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayPalInput.swift; sourceTree = "<group>"; };
+		F634F580215AAAF5004C3D66 /* DrawAmountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawAmountViewController.swift; sourceTree = "<group>"; };
+		F634F582215AD3A1004C3D66 /* BasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
+		F634F585215AD911004C3D66 /* AuthGuardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthGuardViewController.swift; sourceTree = "<group>"; };
+		F639E0122163D5FF00F6D91E /* ShadowUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowUIView.swift; sourceTree = "<group>"; };
+		F63BDF2C2152E50700BC14F3 /* BannerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BannerCell.xib; path = superpay.vip/Xib/BannerCell.xib; sourceTree = SOURCE_ROOT; };
+		F63BDF2E2152E57E00BC14F3 /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
+		F63BDF322152EF5D00BC14F3 /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		F63BDF342152F1AA00BC14F3 /* BannerHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BannerHeaderCell.xib; path = superpay.vip/Xib/BannerHeaderCell.xib; sourceTree = SOURCE_ROOT; };
+		F63BDF362152F21400BC14F3 /* BannerHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerHeaderCell.swift; sourceTree = "<group>"; };
+		F6471C6F2155A9BC00E60C32 /* DrawResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawResultViewController.swift; sourceTree = "<group>"; };
+		F6471C732155ACCF00E60C32 /* SuccessAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessAlert.swift; sourceTree = "<group>"; };
+		F6471C772155BFF300E60C32 /* FailAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailAlert.swift; sourceTree = "<group>"; };
+		F64B4F3C21642AF700179622 /* ShotBuySuccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotBuySuccess.swift; sourceTree = "<group>"; };
+		F64ECAA7215C19F6009D2D40 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		F65531C82157162900096081 /* CardTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTable.swift; sourceTree = "<group>"; };
+		F65BDCB821476AF30086C613 /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		F65BDCBA2147706F0086C613 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F65BDCC621477AEA0086C613 /* QuickPayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickPayViewController.swift; sourceTree = "<group>"; };
+		F65BDCC821477AFB0086C613 /* FinanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceViewController.swift; sourceTree = "<group>"; };
+		F65BDCCA21477B070086C613 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		F65BDCCC21477B140086C613 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		F669837F215E9A930048DDB3 /* ShotBuyResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotBuyResultViewController.swift; sourceTree = "<group>"; };
+		F6698381215EF4970048DDB3 /* nCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = nCardCell.xib; sourceTree = "<group>"; };
+		F6698383215EF49F0048DDB3 /* nDepositCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = nDepositCardCell.xib; sourceTree = "<group>"; };
+		F6698385215EF4A30048DDB3 /* nGiftCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = nGiftCardCell.xib; sourceTree = "<group>"; };
+		F6698387215EF53E0048DDB3 /* nCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nCardCell.swift; sourceTree = "<group>"; };
+		F6698389215EF5780048DDB3 /* nDepositCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nDepositCardCell.swift; sourceTree = "<group>"; };
+		F669838B215EF59F0048DDB3 /* nGiftCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nGiftCardCell.swift; sourceTree = "<group>"; };
+		F669838F215F07480048DDB3 /* ShotBuyConfirm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotBuyConfirm.swift; sourceTree = "<group>"; };
+		F66EDDD3214ECAEC00EE2EF3 /* CardEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardEditViewController.swift; sourceTree = "<group>"; };
+		F671311D21764A6F004435FD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		F671311E21764A70004435FD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		F671312021764AD0004435FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		F671312221764AF3004435FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F671312321764E66004435FD /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		F671312421764E67004435FD /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		F6713126217652BF004435FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SideMenu.xib; sourceTree = "<group>"; };
+		F6713129217652C8004435FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SideMenu.strings; sourceTree = "<group>"; };
+		F671312B217652D3004435FD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/SideMenu.strings"; sourceTree = "<group>"; };
+		F671312D217652D6004435FD /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/SideMenu.strings"; sourceTree = "<group>"; };
+		F671312F217653A1004435FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CardCell.xib; sourceTree = "<group>"; };
+		F6713132217653A6004435FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/CardCell.strings; sourceTree = "<group>"; };
+		F6713134217653A8004435FD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/CardCell.strings"; sourceTree = "<group>"; };
+		F6713136217653AA004435FD /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/CardCell.strings"; sourceTree = "<group>"; };
+		F6713138217653C2004435FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/DepositCardCell.xib; sourceTree = "<group>"; };
+		F671313B217653C4004435FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/DepositCardCell.strings; sourceTree = "<group>"; };
+		F671313D217653C6004435FD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/DepositCardCell.strings"; sourceTree = "<group>"; };
+		F671313F217653C9004435FD /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/DepositCardCell.strings"; sourceTree = "<group>"; };
+		F6713141217653D1004435FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/FailAlert.xib; sourceTree = "<group>"; };
+		F6713144217653E0004435FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/FailAlert.strings; sourceTree = "<group>"; };
+		F6713146217653E2004435FD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/FailAlert.strings"; sourceTree = "<group>"; };
+		F6713148217653E5004435FD /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/FailAlert.strings"; sourceTree = "<group>"; };
+		F671314A217653F2004435FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/GiftCardCell.xib; sourceTree = "<group>"; };
+		F671314D217653F8004435FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/GiftCardCell.strings; sourceTree = "<group>"; };
+		F671314F217653FC004435FD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/GiftCardCell.strings"; sourceTree = "<group>"; };
+		F6713151217653FE004435FD /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/GiftCardCell.strings"; sourceTree = "<group>"; };
+		F67131532176540F004435FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ShotBuyConfirm.xib; sourceTree = "<group>"; };
+		F67131562176541A004435FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ShotBuyConfirm.strings; sourceTree = "<group>"; };
+		F67131582176541E004435FD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ShotBuyConfirm.strings"; sourceTree = "<group>"; };
+		F671315A21765422004435FD /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/ShotBuyConfirm.strings"; sourceTree = "<group>"; };
+		F671315C2176542A004435FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SPCCardCell.xib; sourceTree = "<group>"; };
+		F671315F2176542E004435FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SPCCardCell.strings; sourceTree = "<group>"; };
+		F671316121765430004435FD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/SPCCardCell.strings"; sourceTree = "<group>"; };
+		F671316321765432004435FD /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/SPCCardCell.strings"; sourceTree = "<group>"; };
+		F67131652176543B004435FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ShotBuySuccess.xib; sourceTree = "<group>"; };
+		F67131682176543E004435FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ShotBuySuccess.strings; sourceTree = "<group>"; };
+		F671316A21765440004435FD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ShotBuySuccess.strings"; sourceTree = "<group>"; };
+		F671316C21765443004435FD /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/ShotBuySuccess.strings"; sourceTree = "<group>"; };
+		F671316E2176544A004435FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PasswordInput.xib; sourceTree = "<group>"; };
+		F67131712176544D004435FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/PasswordInput.strings; sourceTree = "<group>"; };
+		F671317321765452004435FD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/PasswordInput.strings"; sourceTree = "<group>"; };
+		F671317521765454004435FD /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/PasswordInput.strings"; sourceTree = "<group>"; };
+		F671317721765466004435FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/BRCCardCell.xib; sourceTree = "<group>"; };
+		F671317A2176546A004435FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/BRCCardCell.strings; sourceTree = "<group>"; };
+		F671317C2176546D004435FD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/BRCCardCell.strings"; sourceTree = "<group>"; };
+		F671317E2176546F004435FD /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/BRCCardCell.strings"; sourceTree = "<group>"; };
+		F6713183217657E9004435FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F6713185217657ED004435FD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F6713186217657EF004435FD /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F675C5A821908E9C001BE25A /* ResetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPassword.swift; sourceTree = "<group>"; };
+		F675C5AB21909ECD001BE25A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ResetPassword.xib; sourceTree = "<group>"; };
+		F675C5AE21909ED1001BE25A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ResetPassword.strings; sourceTree = "<group>"; };
+		F675C5B021909ED3001BE25A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ResetPassword.strings"; sourceTree = "<group>"; };
+		F675C5B221909ED5001BE25A /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/ResetPassword.strings"; sourceTree = "<group>"; };
+		F67813F521B6FE4700A54CC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SuccessAlert.xib; sourceTree = "<group>"; };
+		F67813F821B6FE5000A54CC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SuccessAlert.strings; sourceTree = "<group>"; };
+		F67813FA21B6FE5300A54CC6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/SuccessAlert.strings"; sourceTree = "<group>"; };
+		F67813FC21B6FE5400A54CC6 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/SuccessAlert.strings"; sourceTree = "<group>"; };
+		F67813FE21B744A300A54CC6 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		F67D5D2E216FC1E200BB9FE2 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		F69B70D2217178DE009015D9 /* nBRCCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = nBRCCardCell.xib; sourceTree = "<group>"; };
+		F69B70D421717975009015D9 /* nBRCCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nBRCCardCell.swift; sourceTree = "<group>"; };
+		F69B70D621717D73009015D9 /* SPCCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPCCardCell.swift; sourceTree = "<group>"; };
+		F69B70D821717D88009015D9 /* nSPCCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nSPCCardCell.swift; sourceTree = "<group>"; };
+		F69B70DB21717E9A009015D9 /* nSPCCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = nSPCCardCell.xib; sourceTree = "<group>"; };
+		F69B70E02171807D009015D9 /* SPCCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPCCard.swift; sourceTree = "<group>"; };
+		F69D3180214835C800D4E091 /* BorderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderUIView.swift; sourceTree = "<group>"; };
+		F69D31832148373400D4E091 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		F69D318C21483DB800D4E091 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		F6AED606215DDBB80025C84C /* BRCCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BRCCardCell.swift; sourceTree = "<group>"; };
+		F6AED608215DDC4F0025C84C /* BRCCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BRCCard.swift; sourceTree = "<group>"; };
+		F6BE1B552152B722009B0AC3 /* DepositCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositCardCell.swift; sourceTree = "<group>"; };
+		F6BE1B572152B786009B0AC3 /* GiftCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardCell.swift; sourceTree = "<group>"; };
+		F6BE1B592152B865009B0AC3 /* DepositCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositCard.swift; sourceTree = "<group>"; };
+		F6BE1B5B2152B8B0009B0AC3 /* GiftCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCard.swift; sourceTree = "<group>"; };
+		F6BE1B5D2152C5E9009B0AC3 /* TouchUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchUIView.swift; sourceTree = "<group>"; };
+		F6CEE114215477E700B71309 /* CONSTANT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CONSTANT.swift; sourceTree = "<group>"; };
+		F6D3CAD92167D85B00127C1E /* PasswordInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordInput.swift; sourceTree = "<group>"; };
+		F6D3CADD2167DE2600127C1E /* PopoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoutViewController.swift; sourceTree = "<group>"; };
+		F6D3CADF2167E53200127C1E /* PayResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PayResultViewController.swift; path = superpay.vip/Controller/PayResultViewController.swift; sourceTree = SOURCE_ROOT; };
+		F6DD442221499BC700EBEFE9 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccountViewController.swift; path = superpay.vip/Controller/AccountViewController.swift; sourceTree = SOURCE_ROOT; };
+		F6DD442421499BE600EBEFE9 /* WebSiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WebSiteViewController.swift; path = superpay.vip/Controller/WebSiteViewController.swift; sourceTree = SOURCE_ROOT; };
+		F6DD442621499C0300EBEFE9 /* FaceBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FaceBookViewController.swift; path = superpay.vip/Controller/FaceBookViewController.swift; sourceTree = SOURCE_ROOT; };
+		F6DD442821499C2900EBEFE9 /* HelpCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpCenterViewController.swift; sourceTree = "<group>"; };
+		F6DD442A21499C4300EBEFE9 /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		F6DD44322149B58300EBEFE9 /* CardAddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardAddViewController.swift; sourceTree = "<group>"; };
+		F6E54C142148950D00E95308 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		F6EAFC782150C854009A688C /* SHAHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHAHeader.h; sourceTree = "<group>"; };
+		F6F33DE921BE3E8300CE566D /* Func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Func.swift; sourceTree = "<group>"; };
+		F6F4BE3C21A48FDD0087AC3B /* QuickPaySPCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickPaySPCViewController.swift; sourceTree = "<group>"; };
+		F6F4BE3E21A4A5540087AC3B /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		F6FB8F9D21A3593E003A2057 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		F6FB8F9F21A36435003A2057 /* QuickPayBRCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickPayBRCViewController.swift; sourceTree = "<group>"; };
+		F6FD04B9214D7D4200981E35 /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
+		F6FD04C0214D837600981E35 /* AllTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTransactionViewController.swift; sourceTree = "<group>"; };
+		F6FD04C2214D83AD00981E35 /* DepositViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositViewController.swift; sourceTree = "<group>"; };
+		F6FD04C4214D83BF00981E35 /* WithdrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawViewController.swift; sourceTree = "<group>"; };
+		F6FD04C6214D85A400981E35 /* AllTransactionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllTransactionCell.xib; sourceTree = "<group>"; };
+		F6FD04C8214D85C700981E35 /* DepositCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DepositCell.xib; sourceTree = "<group>"; };
+		F6FD04CA214D85E600981E35 /* WidthdrawCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WidthdrawCell.xib; sourceTree = "<group>"; };
+		F6FD04CC214D88DE00981E35 /* AllTransationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTransationCell.swift; sourceTree = "<group>"; };
+		F6FD04CE214D88F200981E35 /* DepositCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositCell.swift; sourceTree = "<group>"; };
+		F6FD04D4214DF73400981E35 /* WidthdrawCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidthdrawCell.swift; sourceTree = "<group>"; };
+		F6FD04D8214E05B800981E35 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F44923A7211D0A5500C79F2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06ED97D078C14CD39C1416B4 /* Pods_superpay_vip.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44923BB211D0A5700C79F2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD77D719C982A7EB9345511 /* Pods_superpay_vipTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44923C6211D0A5700C79F2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A86D3BC5D1D1766CBB07892 /* Pods_superpay_vipUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BF70E3A6FEF2FB315B1AC1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E0537633AB0322ADB142548 /* Pods_superpay_vip.framework */,
+				611F82E9BBB61071056666EA /* Pods_superpay_vipTests.framework */,
+				3312E08B8CC67E2F8AB9CADD /* Pods_superpay_vipUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F44923A1211D0A5500C79F2B = {
+			isa = PBXGroup;
+			children = (
+				F44923AC211D0A5500C79F2B /* superpay.vip */,
+				F44923C1211D0A5700C79F2B /* superpay.vipTests */,
+				F44923CC211D0A5700C79F2B /* superpay.vipUITests */,
+				F44923AB211D0A5500C79F2B /* Products */,
+				F4E20F95097AE08668C81EC6 /* Pods */,
+				2BF70E3A6FEF2FB315B1AC1A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F44923AB211D0A5500C79F2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F44923AA211D0A5500C79F2B /* superpay.vip.app */,
+				F44923BE211D0A5700C79F2B /* superpay.vipTests.xctest */,
+				F44923C9211D0A5700C79F2B /* superpay.vipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F44923AC211D0A5500C79F2B /* superpay.vip */ = {
+			isa = PBXGroup;
+			children = (
+				F668C05221476217001C8D56 /* Controller */,
+				F634F584215AD8C8004C3D66 /* BasicController */,
+				F6FD04BB214D826900981E35 /* TransactionController */,
+				F6FB8FA121A36473003A2057 /* QuickpayController */,
+				F65531C72157159C00096081 /* Database */,
+				F69D3182214836F800D4E091 /* Model */,
+				F67813FD21B7446800A54CC6 /* Extension */,
+				F6015887214764EA00E56D55 /* CustomView */,
+				F69D3185214838FF00D4E091 /* Cell */,
+				F65BDCB721476AD40086C613 /* Library */,
+				F601588C214766DD00E56D55 /* Constant */,
+				F668C053214762CF001C8D56 /* Storyboard */,
+				F671317F2176577C004435FD /* Localization */,
+				F6E54C112148855D00E95308 /* Xib */,
+				F44923B4211D0A5700C79F2B /* Assets.xcassets */,
+				F44923B9211D0A5700C79F2B /* Info.plist */,
+				F6EAFC782150C854009A688C /* SHAHeader.h */,
+			);
+			path = superpay.vip;
+			sourceTree = "<group>";
+		};
+		F44923C1211D0A5700C79F2B /* superpay.vipTests */ = {
+			isa = PBXGroup;
+			children = (
+				F44923C2211D0A5700C79F2B /* superpay_vipTests.swift */,
+				F44923C4211D0A5700C79F2B /* Info.plist */,
+			);
+			path = superpay.vipTests;
+			sourceTree = "<group>";
+		};
+		F44923CC211D0A5700C79F2B /* superpay.vipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F44923CD211D0A5700C79F2B /* superpay_vipUITests.swift */,
+				F44923CF211D0A5700C79F2B /* Info.plist */,
+			);
+			path = superpay.vipUITests;
+			sourceTree = "<group>";
+		};
+		F4E20F95097AE08668C81EC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EB80C15AF09592B68FE19C7 /* Pods-superpay.vip.debug.xcconfig */,
+				E75B0594462D9AEADE96AE51 /* Pods-superpay.vip.release.xcconfig */,
+				612106C4DCA159B059B032A7 /* Pods-superpay.vipTests.debug.xcconfig */,
+				D2BFA416345032251CC49028 /* Pods-superpay.vipTests.release.xcconfig */,
+				77332BDB866598E704DD43AB /* Pods-superpay.vipUITests.debug.xcconfig */,
+				D4BABF367E81F2CFE1E25179 /* Pods-superpay.vipUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F6015887214764EA00E56D55 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				F6015888214765A300E56D55 /* LoadingButton.swift */,
+				F6471C732155ACCF00E60C32 /* SuccessAlert.swift */,
+				F669838F215F07480048DDB3 /* ShotBuyConfirm.swift */,
+				F6BE1B5D2152C5E9009B0AC3 /* TouchUIView.swift */,
+				F601588A214765D300E56D55 /* BottomBorderTextField.swift */,
+				F6471C772155BFF300E60C32 /* FailAlert.swift */,
+				F69D3180214835C800D4E091 /* BorderUIView.swift */,
+				F6E54C142148950D00E95308 /* SideMenu.swift */,
+				F639E0122163D5FF00F6D91E /* ShadowUIView.swift */,
+				F64B4F3C21642AF700179622 /* ShotBuySuccess.swift */,
+				F6D3CAD92167D85B00127C1E /* PasswordInput.swift */,
+				F675C5A821908E9C001BE25A /* ResetPassword.swift */,
+				F617B3322193D10800F21525 /* PayPalInput.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		F601588C214766DD00E56D55 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				F601588F2147678100E56D55 /* ADDR.swift */,
+				F6CEE114215477E700B71309 /* CONSTANT.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		F634F584215AD8C8004C3D66 /* BasicController */ = {
+			isa = PBXGroup;
+			children = (
+				F634F582215AD3A1004C3D66 /* BasicViewController.swift */,
+				F6F4BE3E21A4A5540087AC3B /* PasswordViewController.swift */,
+				F6D3CADD2167DE2600127C1E /* PopoutViewController.swift */,
+				F634F585215AD911004C3D66 /* AuthGuardViewController.swift */,
+			);
+			path = BasicController;
+			sourceTree = "<group>";
+		};
+		F65531C72157159C00096081 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				F65531C82157162900096081 /* CardTable.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		F65BDCB721476AD40086C613 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				F65BDCB821476AF30086C613 /* Auth.swift */,
+				F6F33DE921BE3E8300CE566D /* Func.swift */,
+				F67D5D2E216FC1E200BB9FE2 /* Device.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		F668C05221476217001C8D56 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F44923AD211D0A5500C79F2B /* AppDelegate.swift */,
+				F6FB8F9D21A3593E003A2057 /* PageViewController.swift */,
+				F6DD442221499BC700EBEFE9 /* AccountViewController.swift */,
+				F6DD44322149B58300EBEFE9 /* CardAddViewController.swift */,
+				F66EDDD3214ECAEC00EE2EF3 /* CardEditViewController.swift */,
+				CBEFBECF212F813B006E5494 /* DrawViewController.swift */,
+				F6471C6F2155A9BC00E60C32 /* DrawResultViewController.swift */,
+				F634F580215AAAF5004C3D66 /* DrawAmountViewController.swift */,
+				F65BDCCA21477B070086C613 /* EventViewController.swift */,
+				F65BDCC821477AFB0086C613 /* FinanceViewController.swift */,
+				F6DD442A21499C4300EBEFE9 /* FeedbackViewController.swift */,
+				F6DD442621499C0300EBEFE9 /* FaceBookViewController.swift */,
+				F65BDCCC21477B140086C613 /* HistoryViewController.swift */,
+				F65BDCBA2147706F0086C613 /* HomeViewController.swift */,
+				F6DD442821499C2900EBEFE9 /* HelpCenterViewController.swift */,
+				F41EB23F21223EF3003E8786 /* LoginViewController.swift */,
+				CBEFBECD212F812B006E5494 /* PayViewController.swift */,
+				F6D3CADF2167E53200127C1E /* PayResultViewController.swift */,
+				F64ECAA7215C19F6009D2D40 /* RegisterViewController.swift */,
+				CBEFBECB212F811A006E5494 /* ShotBuyViewController.swift */,
+				F669837F215E9A930048DDB3 /* ShotBuyResultViewController.swift */,
+				F6DD442421499BE600EBEFE9 /* WebSiteViewController.swift */,
+				F60B4720219524DD00F1C0CA /* PayPalWebViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F668C053214762CF001C8D56 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F44923B1211D0A5500C79F2B /* Main.storyboard */,
+				F44923B6211D0A5700C79F2B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		F671317F2176577C004435FD /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				F6713184217657E9004435FD /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		F67813FD21B7446800A54CC6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F67813FE21B744A300A54CC6 /* Double.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F69D3182214836F800D4E091 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F69D31832148373400D4E091 /* Card.swift */,
+				F6AED608215DDC4F0025C84C /* BRCCard.swift */,
+				F63BDF322152EF5D00BC14F3 /* Banner.swift */,
+				F6BE1B592152B865009B0AC3 /* DepositCard.swift */,
+				F6BE1B5B2152B8B0009B0AC3 /* GiftCard.swift */,
+				F69B70E02171807D009015D9 /* SPCCard.swift */,
+				F6FD04B9214D7D4200981E35 /* Transition.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F69D3185214838FF00D4E091 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F6FD04CC214D88DE00981E35 /* AllTransationCell.swift */,
+				F63BDF2E2152E57E00BC14F3 /* BannerCell.swift */,
+				F69D318C21483DB800D4E091 /* HistoryTableViewCell.swift */,
+				F63BDF362152F21400BC14F3 /* BannerHeaderCell.swift */,
+				F6FD04D8214E05B800981E35 /* CardCell.swift */,
+				F6FD04CE214D88F200981E35 /* DepositCell.swift */,
+				F6BE1B552152B722009B0AC3 /* DepositCardCell.swift */,
+				F6BE1B572152B786009B0AC3 /* GiftCardCell.swift */,
+				F6698389215EF5780048DDB3 /* nDepositCardCell.swift */,
+				F669838B215EF59F0048DDB3 /* nGiftCardCell.swift */,
+				F6698387215EF53E0048DDB3 /* nCardCell.swift */,
+				F69B70D421717975009015D9 /* nBRCCardCell.swift */,
+				F69B70D821717D88009015D9 /* nSPCCardCell.swift */,
+				F6AED606215DDBB80025C84C /* BRCCardCell.swift */,
+				F69B70D621717D73009015D9 /* SPCCardCell.swift */,
+				F6FD04D4214DF73400981E35 /* WidthdrawCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F6E54C112148855D00E95308 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				F6FD04C6214D85A400981E35 /* AllTransactionCell.xib */,
+				F671317821765466004435FD /* BRCCardCell.xib */,
+				F63BDF2C2152E50700BC14F3 /* BannerCell.xib */,
+				F63BDF342152F1AA00BC14F3 /* BannerHeaderCell.xib */,
+				F6713130217653A1004435FD /* CardCell.xib */,
+				F6FD04C8214D85C700981E35 /* DepositCell.xib */,
+				F6713139217653C2004435FD /* DepositCardCell.xib */,
+				F6713142217653D1004435FD /* FailAlert.xib */,
+				F69B70DB21717E9A009015D9 /* nSPCCardCell.xib */,
+				F671314B217653F2004435FD /* GiftCardCell.xib */,
+				F6698381215EF4970048DDB3 /* nCardCell.xib */,
+				F6698385215EF4A30048DDB3 /* nGiftCardCell.xib */,
+				F69B70D2217178DE009015D9 /* nBRCCardCell.xib */,
+				F6698383215EF49F0048DDB3 /* nDepositCardCell.xib */,
+				F6FD04CA214D85E600981E35 /* WidthdrawCell.xib */,
+				F67131542176540F004435FD /* ShotBuyConfirm.xib */,
+				F671315D2176542A004435FD /* SPCCardCell.xib */,
+				F67131662176543B004435FD /* ShotBuySuccess.xib */,
+				F67813F621B6FE4700A54CC6 /* SuccessAlert.xib */,
+				F6713127217652BF004435FD /* SideMenu.xib */,
+				F671316F2176544A004435FD /* PasswordInput.xib */,
+				F675C5AC21909ECD001BE25A /* ResetPassword.xib */,
+				F617B3302193D0A000F21525 /* PayPalInput.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		F6FB8FA121A36473003A2057 /* QuickpayController */ = {
+			isa = PBXGroup;
+			children = (
+				F65BDCC621477AEA0086C613 /* QuickPayViewController.swift */,
+				F6FB8F9F21A36435003A2057 /* QuickPayBRCViewController.swift */,
+				F6F4BE3C21A48FDD0087AC3B /* QuickPaySPCViewController.swift */,
+			);
+			path = QuickpayController;
+			sourceTree = "<group>";
+		};
+		F6FD04BB214D826900981E35 /* TransactionController */ = {
+			isa = PBXGroup;
+			children = (
+				F6FD04C2214D83AD00981E35 /* DepositViewController.swift */,
+				F6FD04C4214D83BF00981E35 /* WithdrawViewController.swift */,
+				F6FD04C0214D837600981E35 /* AllTransactionViewController.swift */,
+			);
+			path = TransactionController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F44923A9211D0A5500C79F2B /* superpay.vip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44923D2211D0A5700C79F2B /* Build configuration list for PBXNativeTarget "superpay.vip" */;
+			buildPhases = (
+				9E2BE756D94E3839C82850C0 /* [CP] Check Pods Manifest.lock */,
+				F44923A6211D0A5500C79F2B /* Sources */,
+				F44923A7211D0A5500C79F2B /* Frameworks */,
+				F44923A8211D0A5500C79F2B /* Resources */,
+				979194C1A067F9054B9BD424 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = superpay.vip;
+			productName = superpay.vip;
+			productReference = F44923AA211D0A5500C79F2B /* superpay.vip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F44923BD211D0A5700C79F2B /* superpay.vipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44923D5211D0A5700C79F2B /* Build configuration list for PBXNativeTarget "superpay.vipTests" */;
+			buildPhases = (
+				EAB23170224FCCFE0A292163 /* [CP] Check Pods Manifest.lock */,
+				F44923BA211D0A5700C79F2B /* Sources */,
+				F44923BB211D0A5700C79F2B /* Frameworks */,
+				F44923BC211D0A5700C79F2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F44923C0211D0A5700C79F2B /* PBXTargetDependency */,
+			);
+			name = superpay.vipTests;
+			productName = superpay.vipTests;
+			productReference = F44923BE211D0A5700C79F2B /* superpay.vipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F44923C8211D0A5700C79F2B /* superpay.vipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44923D8211D0A5700C79F2B /* Build configuration list for PBXNativeTarget "superpay.vipUITests" */;
+			buildPhases = (
+				12AA2F3DEB5ED02D40D8F686 /* [CP] Check Pods Manifest.lock */,
+				F44923C5211D0A5700C79F2B /* Sources */,
+				F44923C6211D0A5700C79F2B /* Frameworks */,
+				F44923C7211D0A5700C79F2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F44923CB211D0A5700C79F2B /* PBXTargetDependency */,
+			);
+			name = superpay.vipUITests;
+			productName = superpay.vipUITests;
+			productReference = F44923C9211D0A5700C79F2B /* superpay.vipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F44923A2211D0A5500C79F2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Jiusite.com;
+				TargetAttributes = {
+					F44923A9211D0A5500C79F2B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					F44923BD211D0A5700C79F2B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F44923A9211D0A5500C79F2B;
+					};
+					F44923C8211D0A5700C79F2B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F44923A9211D0A5500C79F2B;
+					};
+				};
+			};
+			buildConfigurationList = F44923A5211D0A5500C79F2B /* Build configuration list for PBXProject "superpay.vip" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = F44923A1211D0A5500C79F2B;
+			productRefGroup = F44923AB211D0A5500C79F2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F44923A9211D0A5500C79F2B /* superpay.vip */,
+				F44923BD211D0A5700C79F2B /* superpay.vipTests */,
+				F44923C8211D0A5700C79F2B /* superpay.vipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F44923A8211D0A5500C79F2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F617B3312193D0A000F21525 /* PayPalInput.xib in Resources */,
+				F6FD04CB214D85E600981E35 /* WidthdrawCell.xib in Resources */,
+				F6713137217653C2004435FD /* DepositCardCell.xib in Resources */,
+				F44923B8211D0A5700C79F2B /* LaunchScreen.storyboard in Resources */,
+				F44923B5211D0A5700C79F2B /* Assets.xcassets in Resources */,
+				F44923B3211D0A5500C79F2B /* Main.storyboard in Resources */,
+				F671316D2176544A004435FD /* PasswordInput.xib in Resources */,
+				F67813F421B6FE4700A54CC6 /* SuccessAlert.xib in Resources */,
+				F6698382215EF4970048DDB3 /* nCardCell.xib in Resources */,
+				F6713182217657E9004435FD /* Localizable.strings in Resources */,
+				F6698384215EF49F0048DDB3 /* nDepositCardCell.xib in Resources */,
+				F67131522176540F004435FD /* ShotBuyConfirm.xib in Resources */,
+				F6698386215EF4A40048DDB3 /* nGiftCardCell.xib in Resources */,
+				F67131642176543B004435FD /* ShotBuySuccess.xib in Resources */,
+				F6713149217653F2004435FD /* GiftCardCell.xib in Resources */,
+				F6FD04C7214D85A400981E35 /* AllTransactionCell.xib in Resources */,
+				F6FD04C9214D85C700981E35 /* DepositCell.xib in Resources */,
+				F675C5AA21909ECD001BE25A /* ResetPassword.xib in Resources */,
+				F63BDF352152F1AA00BC14F3 /* BannerHeaderCell.xib in Resources */,
+				F69B70D3217178DE009015D9 /* nBRCCardCell.xib in Resources */,
+				F6713140217653D1004435FD /* FailAlert.xib in Resources */,
+				F63BDF2D2152E50700BC14F3 /* BannerCell.xib in Resources */,
+				F6713125217652BF004435FD /* SideMenu.xib in Resources */,
+				F671315B2176542A004435FD /* SPCCardCell.xib in Resources */,
+				F671317621765466004435FD /* BRCCardCell.xib in Resources */,
+				F671312E217653A1004435FD /* CardCell.xib in Resources */,
+				F69B70DD21717E9A009015D9 /* nSPCCardCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44923BC211D0A5700C79F2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44923C7211D0A5700C79F2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12AA2F3DEB5ED02D40D8F686 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-superpay.vipUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		979194C1A067F9054B9BD424 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-superpay.vip/Pods-superpay.vip-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/DLRadioButton/DLRadioButton.framework",
+				"${BUILT_PRODUCTS_DIR}/FormTextField/FormTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/QRCode/QRCode.framework",
+				"${BUILT_PRODUCTS_DIR}/QRCodeReader.swift/QRCodeReader.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+				"${BUILT_PRODUCTS_DIR}/SRCountdownTimer/SRCountdownTimer.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Toaster/Toaster.framework",
+				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DLRadioButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FormTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QRCode.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QRCodeReader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SRCountdownTimer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toaster.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-superpay.vip/Pods-superpay.vip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E2BE756D94E3839C82850C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-superpay.vip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAB23170224FCCFE0A292163 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-superpay.vipTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F44923A6211D0A5500C79F2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64B4F3D21642AF700179622 /* ShotBuySuccess.swift in Sources */,
+				F6FD04D9214E05B800981E35 /* CardCell.swift in Sources */,
+				F63BDF2F2152E57E00BC14F3 /* BannerCell.swift in Sources */,
+				F65531C92157162900096081 /* CardTable.swift in Sources */,
+				F6DD442521499BE600EBEFE9 /* WebSiteViewController.swift in Sources */,
+				F601588B214765D300E56D55 /* BottomBorderTextField.swift in Sources */,
+				F6FD04CD214D88DE00981E35 /* AllTransationCell.swift in Sources */,
+				F6F4BE3F21A4A5540087AC3B /* PasswordViewController.swift in Sources */,
+				F6015889214765A300E56D55 /* LoadingButton.swift in Sources */,
+				F6BE1B582152B786009B0AC3 /* GiftCardCell.swift in Sources */,
+				F6DD442B21499C4300EBEFE9 /* FeedbackViewController.swift in Sources */,
+				F6D3CAE02167E53200127C1E /* PayResultViewController.swift in Sources */,
+				F69B70D921717D88009015D9 /* nSPCCardCell.swift in Sources */,
+				F6AED609215DDC4F0025C84C /* BRCCard.swift in Sources */,
+				F67D5D2F216FC1E200BB9FE2 /* Device.swift in Sources */,
+				F6DD442921499C2900EBEFE9 /* HelpCenterViewController.swift in Sources */,
+				F6DD442321499BC700EBEFE9 /* AccountViewController.swift in Sources */,
+				F69D31842148373400D4E091 /* Card.swift in Sources */,
+				F669838A215EF5780048DDB3 /* nDepositCardCell.swift in Sources */,
+				CBEFBED0212F813B006E5494 /* DrawViewController.swift in Sources */,
+				F69D3181214835C800D4E091 /* BorderUIView.swift in Sources */,
+				F669838C215EF59F0048DDB3 /* nGiftCardCell.swift in Sources */,
+				F6DD44332149B58400EBEFE9 /* CardAddViewController.swift in Sources */,
+				F41EB24021223EF3003E8786 /* LoginViewController.swift in Sources */,
+				F634F586215AD911004C3D66 /* AuthGuardViewController.swift in Sources */,
+				F65BDCC921477AFB0086C613 /* FinanceViewController.swift in Sources */,
+				F66EDDD4214ECAEC00EE2EF3 /* CardEditViewController.swift in Sources */,
+				F6FD04C3214D83AD00981E35 /* DepositViewController.swift in Sources */,
+				F65BDCCB21477B070086C613 /* EventViewController.swift in Sources */,
+				F6F33DEA21BE3E8300CE566D /* Func.swift in Sources */,
+				F6AED607215DDBB80025C84C /* BRCCardCell.swift in Sources */,
+				F6BE1B562152B722009B0AC3 /* DepositCardCell.swift in Sources */,
+				F634F581215AAAF5004C3D66 /* DrawAmountViewController.swift in Sources */,
+				F69D318D21483DB800D4E091 /* HistoryTableViewCell.swift in Sources */,
+				CBEFBECE212F812B006E5494 /* PayViewController.swift in Sources */,
+				F6DD442721499C0300EBEFE9 /* FaceBookViewController.swift in Sources */,
+				F65BDCC721477AEA0086C613 /* QuickPayViewController.swift in Sources */,
+				F6471C702155A9BC00E60C32 /* DrawResultViewController.swift in Sources */,
+				F675C5A921908E9C001BE25A /* ResetPassword.swift in Sources */,
+				F6698380215E9A930048DDB3 /* ShotBuyResultViewController.swift in Sources */,
+				F6FD04C1214D837600981E35 /* AllTransactionViewController.swift in Sources */,
+				F6E54C152148950D00E95308 /* SideMenu.swift in Sources */,
+				F63BDF372152F21400BC14F3 /* BannerHeaderCell.swift in Sources */,
+				F6D3CADA2167D85B00127C1E /* PasswordInput.swift in Sources */,
+				F6FD04BA214D7D4300981E35 /* Transition.swift in Sources */,
+				F60158902147678100E56D55 /* ADDR.swift in Sources */,
+				F60B4721219524DD00F1C0CA /* PayPalWebViewController.swift in Sources */,
+				F639E0132163D5FF00F6D91E /* ShadowUIView.swift in Sources */,
+				F6FD04C5214D83BF00981E35 /* WithdrawViewController.swift in Sources */,
+				F6FB8FA021A36435003A2057 /* QuickPayBRCViewController.swift in Sources */,
+				F69B70D521717975009015D9 /* nBRCCardCell.swift in Sources */,
+				F44923AE211D0A5500C79F2B /* AppDelegate.swift in Sources */,
+				F617B3332193D10800F21525 /* PayPalInput.swift in Sources */,
+				F6FB8F9E21A3593E003A2057 /* PageViewController.swift in Sources */,
+				F6BE1B5E2152C5E9009B0AC3 /* TouchUIView.swift in Sources */,
+				F69B70D721717D73009015D9 /* SPCCardCell.swift in Sources */,
+				F6698390215F07480048DDB3 /* ShotBuyConfirm.swift in Sources */,
+				F6FD04D5214DF73400981E35 /* WidthdrawCell.swift in Sources */,
+				F6D3CADE2167DE2600127C1E /* PopoutViewController.swift in Sources */,
+				F67813FF21B744A400A54CC6 /* Double.swift in Sources */,
+				F6698388215EF53E0048DDB3 /* nCardCell.swift in Sources */,
+				F6471C742155ACCF00E60C32 /* SuccessAlert.swift in Sources */,
+				F634F583215AD3A1004C3D66 /* BasicViewController.swift in Sources */,
+				F6FD04CF214D88F200981E35 /* DepositCell.swift in Sources */,
+				CBEFBECC212F811A006E5494 /* ShotBuyViewController.swift in Sources */,
+				F64ECAA8215C19F6009D2D40 /* RegisterViewController.swift in Sources */,
+				F69B70E12171807D009015D9 /* SPCCard.swift in Sources */,
+				F65BDCBB2147706F0086C613 /* HomeViewController.swift in Sources */,
+				F6471C782155BFF300E60C32 /* FailAlert.swift in Sources */,
+				F6BE1B5A2152B865009B0AC3 /* DepositCard.swift in Sources */,
+				F65BDCCD21477B140086C613 /* HistoryViewController.swift in Sources */,
+				F63BDF332152EF5D00BC14F3 /* Banner.swift in Sources */,
+				F65BDCB921476AF30086C613 /* Auth.swift in Sources */,
+				F6F4BE3D21A48FDD0087AC3B /* QuickPaySPCViewController.swift in Sources */,
+				F6BE1B5C2152B8B0009B0AC3 /* GiftCard.swift in Sources */,
+				F6CEE115215477E700B71309 /* CONSTANT.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44923BA211D0A5700C79F2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44923C3211D0A5700C79F2B /* superpay_vipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44923C5211D0A5700C79F2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44923CE211D0A5700C79F2B /* superpay_vipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F44923C0211D0A5700C79F2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F44923A9211D0A5500C79F2B /* superpay.vip */;
+			targetProxy = F44923BF211D0A5700C79F2B /* PBXContainerItemProxy */;
+		};
+		F44923CB211D0A5700C79F2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F44923A9211D0A5500C79F2B /* superpay.vip */;
+			targetProxy = F44923CA211D0A5700C79F2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F44923B1211D0A5500C79F2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F44923B2211D0A5500C79F2B /* Base */,
+				F671311D21764A6F004435FD /* zh-Hans */,
+				F671312021764AD0004435FD /* en */,
+				F671312321764E66004435FD /* zh-Hant */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F44923B6211D0A5700C79F2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F44923B7211D0A5700C79F2B /* Base */,
+				F671311E21764A70004435FD /* zh-Hans */,
+				F671312221764AF3004435FD /* en */,
+				F671312421764E67004435FD /* zh-Hant */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F6713127217652BF004435FD /* SideMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6713126217652BF004435FD /* Base */,
+				F6713129217652C8004435FD /* en */,
+				F671312B217652D3004435FD /* zh-Hans */,
+				F671312D217652D6004435FD /* zh-Hant */,
+			);
+			name = SideMenu.xib;
+			sourceTree = "<group>";
+		};
+		F6713130217653A1004435FD /* CardCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F671312F217653A1004435FD /* Base */,
+				F6713132217653A6004435FD /* en */,
+				F6713134217653A8004435FD /* zh-Hans */,
+				F6713136217653AA004435FD /* zh-Hant */,
+			);
+			name = CardCell.xib;
+			sourceTree = "<group>";
+		};
+		F6713139217653C2004435FD /* DepositCardCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6713138217653C2004435FD /* Base */,
+				F671313B217653C4004435FD /* en */,
+				F671313D217653C6004435FD /* zh-Hans */,
+				F671313F217653C9004435FD /* zh-Hant */,
+			);
+			name = DepositCardCell.xib;
+			path = superpay.vip/Xib;
+			sourceTree = SOURCE_ROOT;
+		};
+		F6713142217653D1004435FD /* FailAlert.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6713141217653D1004435FD /* Base */,
+				F6713144217653E0004435FD /* en */,
+				F6713146217653E2004435FD /* zh-Hans */,
+				F6713148217653E5004435FD /* zh-Hant */,
+			);
+			name = FailAlert.xib;
+			sourceTree = "<group>";
+		};
+		F671314B217653F2004435FD /* GiftCardCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F671314A217653F2004435FD /* Base */,
+				F671314D217653F8004435FD /* en */,
+				F671314F217653FC004435FD /* zh-Hans */,
+				F6713151217653FE004435FD /* zh-Hant */,
+			);
+			name = GiftCardCell.xib;
+			sourceTree = "<group>";
+		};
+		F67131542176540F004435FD /* ShotBuyConfirm.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F67131532176540F004435FD /* Base */,
+				F67131562176541A004435FD /* en */,
+				F67131582176541E004435FD /* zh-Hans */,
+				F671315A21765422004435FD /* zh-Hant */,
+			);
+			name = ShotBuyConfirm.xib;
+			sourceTree = "<group>";
+		};
+		F671315D2176542A004435FD /* SPCCardCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F671315C2176542A004435FD /* Base */,
+				F671315F2176542E004435FD /* en */,
+				F671316121765430004435FD /* zh-Hans */,
+				F671316321765432004435FD /* zh-Hant */,
+			);
+			name = SPCCardCell.xib;
+			sourceTree = "<group>";
+		};
+		F67131662176543B004435FD /* ShotBuySuccess.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F67131652176543B004435FD /* Base */,
+				F67131682176543E004435FD /* en */,
+				F671316A21765440004435FD /* zh-Hans */,
+				F671316C21765443004435FD /* zh-Hant */,
+			);
+			name = ShotBuySuccess.xib;
+			sourceTree = "<group>";
+		};
+		F671316F2176544A004435FD /* PasswordInput.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F671316E2176544A004435FD /* Base */,
+				F67131712176544D004435FD /* en */,
+				F671317321765452004435FD /* zh-Hans */,
+				F671317521765454004435FD /* zh-Hant */,
+			);
+			name = PasswordInput.xib;
+			sourceTree = "<group>";
+		};
+		F671317821765466004435FD /* BRCCardCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F671317721765466004435FD /* Base */,
+				F671317A2176546A004435FD /* en */,
+				F671317C2176546D004435FD /* zh-Hans */,
+				F671317E2176546F004435FD /* zh-Hant */,
+			);
+			name = BRCCardCell.xib;
+			sourceTree = "<group>";
+		};
+		F6713184217657E9004435FD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6713183217657E9004435FD /* en */,
+				F6713185217657ED004435FD /* zh-Hans */,
+				F6713186217657EF004435FD /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F675C5AC21909ECD001BE25A /* ResetPassword.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F675C5AB21909ECD001BE25A /* Base */,
+				F675C5AE21909ED1001BE25A /* en */,
+				F675C5B021909ED3001BE25A /* zh-Hans */,
+				F675C5B221909ED5001BE25A /* zh-Hant */,
+			);
+			name = ResetPassword.xib;
+			sourceTree = "<group>";
+		};
+		F67813F621B6FE4700A54CC6 /* SuccessAlert.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F67813F521B6FE4700A54CC6 /* Base */,
+				F67813F821B6FE5000A54CC6 /* en */,
+				F67813FA21B6FE5300A54CC6 /* zh-Hans */,
+				F67813FC21B6FE5400A54CC6 /* zh-Hant */,
+			);
+			name = SuccessAlert.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F44923D0211D0A5700C79F2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F44923D1211D0A5700C79F2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F44923D3211D0A5700C79F2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EB80C15AF09592B68FE19C7 /* Pods-superpay.vip.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WZSLSF6U3A;
+				INFOPLIST_FILE = superpay.vip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vip.superpay.space;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = superpay.vip/SHAHeader.h;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F44923D4211D0A5700C79F2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E75B0594462D9AEADE96AE51 /* Pods-superpay.vip.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WZSLSF6U3A;
+				INFOPLIST_FILE = superpay.vip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vip.superpay.space;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = superpay.vip/SHAHeader.h;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F44923D6211D0A5700C79F2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 612106C4DCA159B059B032A7 /* Pods-superpay.vipTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TYB3V4KQS3;
+				INFOPLIST_FILE = superpay.vipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jiusite.com.superpay-vipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/superpay.vip.app/superpay.vip";
+			};
+			name = Debug;
+		};
+		F44923D7211D0A5700C79F2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2BFA416345032251CC49028 /* Pods-superpay.vipTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TYB3V4KQS3;
+				INFOPLIST_FILE = superpay.vipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jiusite.com.superpay-vipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/superpay.vip.app/superpay.vip";
+			};
+			name = Release;
+		};
+		F44923D9211D0A5700C79F2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77332BDB866598E704DD43AB /* Pods-superpay.vipUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TYB3V4KQS3;
+				INFOPLIST_FILE = superpay.vipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jiusite.com.superpay-vipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = superpay.vip;
+			};
+			name = Debug;
+		};
+		F44923DA211D0A5700C79F2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4BABF367E81F2CFE1E25179 /* Pods-superpay.vipUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TYB3V4KQS3;
+				INFOPLIST_FILE = superpay.vipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jiusite.com.superpay-vipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = superpay.vip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F44923A5211D0A5500C79F2B /* Build configuration list for PBXProject "superpay.vip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44923D0211D0A5700C79F2B /* Debug */,
+				F44923D1211D0A5700C79F2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44923D2211D0A5700C79F2B /* Build configuration list for PBXNativeTarget "superpay.vip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44923D3211D0A5700C79F2B /* Debug */,
+				F44923D4211D0A5700C79F2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44923D5211D0A5700C79F2B /* Build configuration list for PBXNativeTarget "superpay.vipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44923D6211D0A5700C79F2B /* Debug */,
+				F44923D7211D0A5700C79F2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44923D8211D0A5700C79F2B /* Build configuration list for PBXNativeTarget "superpay.vipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44923D9211D0A5700C79F2B /* Debug */,
+				F44923DA211D0A5700C79F2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F44923A2211D0A5500C79F2B /* Project object */;
+}

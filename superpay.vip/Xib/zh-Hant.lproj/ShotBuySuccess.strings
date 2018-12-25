@@ -1,0 +1,48 @@
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "1Aj-4Z-MAO"; */
+"1Aj-4Z-MAO.text" = "價格";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "8Dz-20-7fg"; */
+"8Dz-20-7fg.text" = "姓名";
+
+/* Class = "UIButton"; normalTitle = "Return Home"; ObjectID = "8KO-n5-PWZ"; */
+"8KO-n5-PWZ.normalTitle" = "返回首頁";
+
+/* Class = "UILabel"; text = "Receiver"; ObjectID = "BIX-Ee-bVq"; */
+"BIX-Ee-bVq.text" = "接收者";
+
+/* Class = "UILabel"; text = "using deposit card"; ObjectID = "BwP-Zc-yWe"; */
+"BwP-Zc-yWe.text" = "使用信用卡或者儲蓄卡";
+
+/* Class = "UILabel"; text = "1000000"; ObjectID = "GKh-D8-xhq"; */
+"GKh-D8-xhq.text" = "1000000";
+
+/* Class = "UILabel"; text = "19097 Colima Road"; ObjectID = "JRh-rM-7SN"; */
+"JRh-rM-7SN.text" = "19097 Colima Road";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "NNN-aA-AHw"; */
+"NNN-aA-AHw.text" = "標題";
+
+/* Class = "UILabel"; text = "Unicode"; ObjectID = "SUo-tj-2U4"; */
+"SUo-tj-2U4.text" = "統一編號";
+
+/* Class = "UILabel"; text = "$50"; ObjectID = "Xmk-LQ-UVy"; */
+"Xmk-LQ-UVy.text" = "$50";
+
+/* Class = "UILabel"; text = "quantity"; ObjectID = "ZRS-lF-4cy"; */
+"ZRS-lF-4cy.text" = "數量";
+
+/* Class = "UILabel"; text = "$50"; ObjectID = "ajj-EJ-gku"; */
+"ajj-EJ-gku.text" = "$50";
+
+/* Class = "UILabel"; text = "Total"; ObjectID = "fPk-8v-y7d"; */
+"fPk-8v-y7d.text" = "總計";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "sc1-8g-zyA"; */
+"sc1-8g-zyA.text" = "1";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "ssB-HT-U9u"; */
+"ssB-HT-U9u.text" = "地址";
+
+/* Class = "UILabel"; text = "Transition Success"; ObjectID = "vk6-op-VmF"; */
+"vk6-op-VmF.text" = "交易成功";

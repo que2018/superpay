@@ -1,0 +1,31 @@
+
+"tab_all_transaction" = "All Transaction";
+"tab_pay" = "Pay";
+"tab_draw" = "Draw";
+
+"text_you" = "You";
+"text_alert" = "Alert";
+"text_login" = "Login";
+"text_logout" = "Logout";
+"text_unknown" = "unknown";
+"text_email_sent" = "email is sent";
+"text_login_success" = "login success";
+"text_register_success" = "register success";
+"text_logout_success" = "logout success";
+"text_logout_card_notice" = "login to view cards";
+"text_login_deposit_notice" = "login to enable deposit";
+"text_session_expire_login" = "session expired, please login";
+"text_logout_transaction_notice" = "login to view all transaction";
+
+"button_ok" = "OK";
+
+"error_mail_sent" = "something is wrong, mail is not sent correctly";
+"error_email_empty" = "email address is empty";
+"error_user_not_exist" = "user is not exist";
+"error_prase_item_info" = "error prase item info";
+"error_json_decode" = "JSON decode error";
+"error_aes_decrpytion" = "AES decrpytion error";
+"error_phone_number_or_password_empty" = "phone number or password empty";
+"error_message_user_forget_passwd_email_invalid" = "the email address is not valid";
+"error_message_transition_balance_too_less"  = "balance is not enough for transition";
+

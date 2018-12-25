@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PayPalInput" customModule="superpay_vip" customModuleProvider="target">
+            <connections>
+                <outlet property="amountTextField" destination="NwM-aH-vPy" id="1iY-MA-Gmx"/>
+                <outlet property="confirmButton" destination="4gM-DX-DaR" id="dTa-CV-Jkm"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="Xy5-oO-AW0"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="382" height="216"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lw9-9S-xpw">
+                    <rect key="frame" x="0.0" y="0.0" width="382" height="129.5"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="50" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NwM-aH-vPy">
+                            <rect key="frame" x="38" y="37.5" width="306" height="64.5"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="NwM-aH-vPy" firstAttribute="centerX" secondItem="Lw9-9S-xpw" secondAttribute="centerX" id="Cbg-nE-G3G"/>
+                        <constraint firstItem="NwM-aH-vPy" firstAttribute="centerY" secondItem="Lw9-9S-xpw" secondAttribute="centerY" constant="5" id="GdU-jH-F1Y"/>
+                        <constraint firstItem="NwM-aH-vPy" firstAttribute="width" secondItem="Lw9-9S-xpw" secondAttribute="width" multiplier="0.8" id="JIs-Nc-aQ4"/>
+                        <constraint firstItem="NwM-aH-vPy" firstAttribute="height" secondItem="Lw9-9S-xpw" secondAttribute="height" multiplier="0.5" id="hjf-3o-N7q"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ipd-Sh-jf2">
+                    <rect key="frame" x="0.0" y="129.5" width="382" height="86.5"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4gM-DX-DaR" customClass="LoadingButton" customModule="superpay_vip" customModuleProvider="target">
+                            <rect key="frame" x="38" y="18.5" width="306" height="40"/>
+                            <color key="backgroundColor" red="1" green="0.71372549019999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="xNJ-NE-ImG"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                            <state key="normal" title="Confirm">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="7"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="4gM-DX-DaR" firstAttribute="centerX" secondItem="Ipd-Sh-jf2" secondAttribute="centerX" id="05R-Yx-GXg"/>
+                        <constraint firstItem="4gM-DX-DaR" firstAttribute="centerY" secondItem="Ipd-Sh-jf2" secondAttribute="centerY" constant="-5" id="Zz6-Lq-Cxz"/>
+                        <constraint firstItem="4gM-DX-DaR" firstAttribute="width" secondItem="Ipd-Sh-jf2" secondAttribute="width" multiplier="0.8" id="nOz-kA-gw3"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Ipd-Sh-jf2" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="C3a-TD-CB4"/>
+                <constraint firstItem="Ipd-Sh-jf2" firstAttribute="top" secondItem="Lw9-9S-xpw" secondAttribute="bottom" id="Db3-Um-xdD"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Ipd-Sh-jf2" secondAttribute="trailing" id="I6l-1J-I0l"/>
+                <constraint firstItem="Lw9-9S-xpw" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Nct-q1-mFe"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Lw9-9S-xpw" secondAttribute="trailing" id="bgv-Jk-Cxl"/>
+                <constraint firstItem="Lw9-9S-xpw" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.6" id="eKJ-RP-eTk"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Ipd-Sh-jf2" secondAttribute="bottom" id="fyi-os-4d0"/>
+                <constraint firstItem="Lw9-9S-xpw" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="qqc-6A-iwW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="236.80000000000001" y="97.151424287856074"/>
+        </view>
+    </objects>
+</document>

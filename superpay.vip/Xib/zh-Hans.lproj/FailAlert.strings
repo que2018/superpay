@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "The QRCODE is invalid"; ObjectID = "1sa-fV-ANV"; */
+"1sa-fV-ANV.text" = "此QRCode无效";
+
+/* Class = "UIButton"; normalTitle = "Return"; ObjectID = "Ai0-gK-qVi"; */
+"Ai0-gK-qVi.normalTitle" = "返回";
+
+/* Class = "UILabel"; text = "Transaction Fail"; ObjectID = "Pz4-og-95Q"; */
+"Pz4-og-95Q.text" = "交易失败";
+
+/* Class = "UILabel"; text = "$0 unit"; ObjectID = "yzf-Ip-2qj"; */
+"yzf-Ip-2qj.text" = "0单位";

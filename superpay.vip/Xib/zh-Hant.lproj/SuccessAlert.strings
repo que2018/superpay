@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "You have received amount"; ObjectID = "1sa-fV-ANV"; */
+"1sa-fV-ANV.text" = "您收到轉賬";
+
+/* Class = "UIButton"; normalTitle = "Return Home"; ObjectID = "Ai0-gK-qVi"; */
+"Ai0-gK-qVi.normalTitle" = "返回";
+
+/* Class = "UILabel"; text = "Transaction Success"; ObjectID = "Pz4-og-95Q"; */
+"Pz4-og-95Q.text" = "轉賬成功";
+
+/* Class = "UILabel"; text = "$0 unit"; ObjectID = "yzf-Ip-2qj"; */
+"yzf-Ip-2qj.text" = "0個單位";

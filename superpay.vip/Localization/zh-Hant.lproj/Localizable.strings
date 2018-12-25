@@ -1,0 +1,31 @@
+
+"tab_all_transaction" = "所有交易";
+"tab_pay" = "付款";
+"tab_draw" = "取款"; 
+
+"text_you" = "你";
+"text_alert" = "警告";
+"text_login" = "登陸";
+"text_logout" = "登出";
+"text_unknown" = "未知";
+"text_email_sent" = "郵件已發送";
+"text_login_success" = "登陸成功";
+"text_register_success" = "註冊成功";
+"text_logout_success" = "登出成功";
+"text_logout_card_notice" = "登錄后查看卡片詳情";
+"text_login_deposit_notice" = "登錄后啟用充值功能";
+"text_session_expire_login" = "狀態過期請重新登錄";
+"text_logout_transaction_notice" = "登錄查看所有交易信息";
+
+"button_ok" = "確定";
+
+"error_mail_sent" = "內部錯誤,郵件不能正確發送";
+"error_email_empty" = "郵件地址為空";
+"error_user_not_exist" = "用戶不存在";
+"error_prase_item_info" = "不能解析物品信息";
+"error_json_decode" = "json解析錯誤";
+"error_aes_decrpytion" = "aes加密錯誤";
+"error_phone_number_or_password_empty" = "電話或者密碼為空";
+"error_message_user_forget_passwd_email_invalid" = "此電子郵件地址無效";
+"error_message_transition_balance_too_less"  = "餘額不足以交易";
+
